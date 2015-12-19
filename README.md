@@ -1,7 +1,7 @@
 AIBond integration/staging tree
 ================================
 
-http://www.aibond.org
+http://aib.iobond.com
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
 Copyright (c) 2013-2014 AIBond Developers
