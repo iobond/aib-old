@@ -1,32 +1,32 @@
-AIBond integration/staging tree
+AIB integration/staging tree
 ================================
 
-http://aib.iobond.com
+http://aib.token.cf
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2013-2014 AIBond Developers
+Copyright (c) 2014-2016 AIB Developers
 
 
-What is AIBond?
+What is AIB?
 ----------------
 
-AIBond is a version of Bitcoin&Litecoin using scrypt as a proof-of-work algorithm.
+AIB is a version of Bitcoin&Litecoin using scrypt as a proof-of-work algorithm.
  - 1 minute block targets
  - subsidy  1 coin 1 block per minute
  - transation fee is the factor to increase the block reward
  - KGW implmenetion
- - ~314 billion total coins
+ - ~31.4 billion total coins
  
 The rest is the same as Bitcoin & Litecoin
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the AIBond client sofware, see http://www.aibond.com.
+the AIB client sofware, see http://aib.token.cf.
 
 License
 -------
 
-AIBond is released under the terms of the MIT license. See `COPYING` for more
+AIB is released under the terms of the MIT license. See `COPYING` for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -46,9 +46,9 @@ Developers should expect to rework and resubmit patches if the code doesn't
 match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
-The `aibond` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/9cat/aibond/tags) are created
-regularly to indicate new official, stable release versions of AIBond.
+The `dev` branch is regularly built and tested, but is not guaranteed to be
+completely stable. [Tags](https://github.com/iobond/aib/tags) are created
+regularly to indicate new official, stable release versions of AIB.
 
 
 Testing
