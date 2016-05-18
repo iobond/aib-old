@@ -1,7 +1,7 @@
 AIB integration/staging tree
 ================================
 
-http://aib.token.cf
+http://aib.iobond.com
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
 Copyright (c) 2014-2016 AIB Developers
@@ -35,7 +35,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the AIBond
+If it is a simple/trivial/non-controversial change, then one of the AIB
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -72,5 +72,5 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
-    ./aibond-qt_test
+    ./aib-qt_test
 

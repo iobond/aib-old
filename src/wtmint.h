@@ -14,8 +14,8 @@
 
 #define CLIENT_VERSION_MAJOR       2
 #define CLIENT_VERSION_MINOR       8
-#define CLIENT_VERSION_REVISION    7
-#define CLIENT_VERSION_BUILD       57
+#define CLIENT_VERSION_REVISION    8
+#define CLIENT_VERSION_BUILD       0
 
 #define WTMINT_MAX_MONEY			 3141592653589793238
                                    // 271828182845904523  
@@ -33,8 +33,8 @@
 #define WTMINT_BLOCK_nNonce			433798
 #define WTMINT_BLOCK_hashMerkleRoot	"0x85f6c5fd0e39b5aa8688a844b283accef86973fcfdb7deac12ab2d4bebdc7c82"
 
-#define WTMINT_BLOCK_nTargetTimespan 14400  //4 * 60 * 60 // TempleCoin: every 4 hours
-#define WTMINT_BLOCK_nTargetSpacing 60 // TempleCoin: 1 minutes
+#define WTMINT_BLOCK_nTargetTimespan 14400  //4 * 60 * 60 //  : every 4 hours
+#define WTMINT_BLOCK_nTargetSpacing 60 //  : 1 minutes
 
 
 //Magic Header
@@ -48,7 +48,7 @@
 
 #define WTMINT_RPC_PORT 51413
 #define WTMINT_SERVER_PORT 31415
-#define WTMINT_RPC_SUBJECT "AIBond"
+#define WTMINT_RPC_SUBJECT "AIB"
 
 #define WTMINT_AUX_ChainID 0x0025  //Hex
 #define WTMINT_AUX_StartBlock 3
@@ -98,7 +98,10 @@ namespace WTMint
 	static MapCheckpoints  mapCheckpoints = boost::assign::map_list_of
 
         (  0, uint256("0x062550537871c387faaa5cd91bb8a2cf4b67d3a4ec816799ecc1f5cb7fd54bcc"))
-		
+        (  10000, uint256("94e27efa6264d5adfcf30adcc0669b26c1ffcbdd3fff4ba70a804280ccee444a"))
+        (  100000, uint256("964ba54366fd2d867882ea6be03b3f8ee817a94e0b46b1d9dd3caa379d9ff118"))
+        (  500000, uint256("d7f084ecf92896c76a50cdc12ed6f7e9d35f3682f9e3e2faf65dddab13cffb81"))
+        (  538888, uint256("0120e15f267d25108a37d8b564246d72b505674061021b51d7e9b0a393444a19"))
 	;
 
 }

@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("AIBonds");
-    case mBTC: return QString("Milli-AIBonds (1 / 1,000)");
-    case uBTC: return QString("Micro-AIBonds (1 / 1,000,000)");
+    case BTC: return QString("AIBs");
+    case mBTC: return QString("Milli-AIBs (1 / 1,000)");
+    case uBTC: return QString("Micro-AIBs (1 / 1,000,000)");
     default: return QString("???");
     }
 }

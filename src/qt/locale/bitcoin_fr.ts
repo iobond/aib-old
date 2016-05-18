@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About AIBond</source>
-        <translation>À propos de AIBond</translation>
+        <source>About AIB</source>
+        <translation>À propos de AIB</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;AIBond&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;AIBond&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;AIB&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;AIB&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The AIBond developers</source>
-        <translation>Les développeurs AIBond</translation>
+        <source>The AIB developers</source>
+        <translation>Les développeurs AIB</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your AIBond addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Voici vos adresses AIBond qui vous permettent de recevoir des paiements. Vous pouvez donner une adresse différente à chaque expéditeur afin de savoir qui vous paye.</translation>
+        <source>These are your AIB addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Voici vos adresses AIB qui vous permettent de recevoir des paiements. Vous pouvez donner une adresse différente à chaque expéditeur afin de savoir qui vous paye.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a AIBond address</source>
-        <translation>Signer un message pour prouver que vous détenez une adresse AIBond</translation>
+        <source>Sign a message to prove you own a AIB address</source>
+        <translation>Signer un message pour prouver que vous détenez une adresse AIB</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified AIBond address</source>
-        <translation>Vérifier un message pour vous assurer qu&apos;il a bien été signé avec l&apos;adresse AIBond spécifiée</translation>
+        <source>Verify a message to ensure it was signed with a specified AIB address</source>
+        <translation>Vérifier un message pour vous assurer qu&apos;il a bien été signé avec l&apos;adresse AIB spécifiée</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your AIBond addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ce sont vos adresses AIBond pour émettre des paiements. Vérifiez toujours le montant et l&apos;adresse du destinataire avant d&apos;envoyer des pièces.</translation>
+        <source>These are your AIB addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ce sont vos adresses AIB pour émettre des paiements. Vérifiez toujours le montant et l&apos;adresse du destinataire avant d&apos;envoyer des pièces.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -138,7 +138,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Send &amp;Coins</source>
-        <translation>Envoyer des &amp;AIBonds</translation>
+        <translation>Envoyer des &amp;AIBs</translation>
     </message>
     <message>
         <location line="+260"/>
@@ -275,8 +275,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>AIBond will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aibonds from being stolen by malware infecting your computer.</source>
-        <translation>AIBond va à présent se fermer pour terminer la procédure de cryptage. N&apos;oubliez pas que le chiffrement de votre porte-monnaie ne peut pas fournir une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>AIB will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your aibs from being stolen by malware infecting your computer.</source>
+        <translation>AIB va à présent se fermer pour terminer la procédure de cryptage. N&apos;oubliez pas que le chiffrement de votre porte-monnaie ne peut pas fournir une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about AIBond</source>
-        <translation>Afficher des informations à propos de AIBond</translation>
+        <source>Show information about AIB</source>
+        <translation>Afficher des informations à propos de AIB</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a AIBond address</source>
-        <translation>Envoyer des pièces à une adresse AIBond</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>Envoyer des pièces à une adresse AIB</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for AIBond</source>
-        <translation>Modifier les options de configuration de AIBond</translation>
+        <source>Modify configuration options for AIB</source>
+        <translation>Modifier les options de configuration de AIB</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>AIBond</source>
-        <translation>AIBond</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About AIBond</source>
-        <translation>À &amp;propos de AIBond</translation>
+        <source>&amp;About AIB</source>
+        <translation>À &amp;propos de AIB</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your AIBond addresses to prove you own them</source>
-        <translation>Signer les messages avec vos adresses AIBond pour prouver que vous les détenez</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Signer les messages avec vos adresses AIB pour prouver que vous les détenez</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified AIBond addresses</source>
-        <translation>Vérifier les messages pour vous assurer qu&apos;ils ont bien été signés avec les adresses AIBond spécifiées</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>Vérifier les messages pour vous assurer qu&apos;ils ont bien été signés avec les adresses AIB spécifiées</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>AIBond client</source>
-        <translation>Client AIBond</translation>
+        <source>AIB client</source>
+        <translation>Client AIB</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to AIBond network</source>
-        <translation><numerusform>%n connexion active avec le réseau AIBond</numerusform><numerusform>%n connexions actives avec le réseau AIBond</numerusform></translation>
+        <source>%n active connection(s) to AIB network</source>
+        <translation><numerusform>%n connexion active avec le réseau AIB</numerusform><numerusform>%n connexions actives avec le réseau AIB</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresse : %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid AIBond address or malformed URI parameters.</source>
-        <translation>L&apos;URI ne peut être analysé ! Cela peut être causé par une adresse AIBond invalide ou par des paramètres d&apos;URI malformés.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid AIB address or malformed URI parameters.</source>
+        <translation>L&apos;URI ne peut être analysé ! Cela peut être causé par une adresse AIB invalide ou par des paramètres d&apos;URI malformés.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. AIBond can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale est survenue. AIBond ne peut plus continuer à fonctionner de façon sûre et va s&apos;arrêter.</translation>
+        <source>A fatal error occurred. AIB can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale est survenue. AIB ne peut plus continuer à fonctionner de façon sûre et va s&apos;arrêter.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresse : %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid AIBond address.</source>
-        <translation>L&apos;adresse fournie « %1 » n&apos;est pas une adresse AIBond valide.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid AIB address.</source>
+        <translation>L&apos;adresse fournie « %1 » n&apos;est pas une adresse AIB valide.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresse : %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>AIBond-Qt</source>
-        <translation>AIBond-Qt</translation>
+        <source>AIB-Qt</source>
+        <translation>AIB-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresse : %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start AIBond after logging in to the system.</source>
-        <translation>Démarrer AIBond automatiquement lors de l&apos;ouverture une session sur l&apos;ordinateur.</translation>
+        <source>Automatically start AIB after logging in to the system.</source>
+        <translation>Démarrer AIB automatiquement lors de l&apos;ouverture une session sur l&apos;ordinateur.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start AIBond on system login</source>
-        <translation>&amp;Démarrer AIBond lors de l&apos;ouverture d&apos;une session</translation>
+        <source>&amp;Start AIB on system login</source>
+        <translation>&amp;Démarrer AIB lors de l&apos;ouverture d&apos;une session</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the AIBond client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client AIBond automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l&apos;UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client AIB automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l&apos;UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the AIBond network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connexion au réseau AIBond à travers un proxy SOCKS (par ex. lors d&apos;une connexion via Tor).</translation>
+        <source>Connect to the AIB network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connexion au réseau AIB à travers un proxy SOCKS (par ex. lors d&apos;une connexion via Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting AIBond.</source>
-        <translation>La langue de l&apos;interface utilisateur peut être définie ici. Ce réglage sera pris en compte après redémarrage de AIBond.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting AIB.</source>
+        <translation>La langue de l&apos;interface utilisateur peut être définie ici. Ce réglage sera pris en compte après redémarrage de AIB.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show AIBond addresses in the transaction list or not.</source>
-        <translation>Détermine si les adresses AIBond seront affichées sur la liste des transactions.</translation>
+        <source>Whether to show AIB addresses in the transaction list or not.</source>
+        <translation>Détermine si les adresses AIB seront affichées sur la liste des transactions.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresse : %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting AIBond.</source>
-        <translation>Ce réglage sera pris en compte après un redémarrage de AIBond.</translation>
+        <source>This setting will take effect after restarting AIB.</source>
+        <translation>Ce réglage sera pris en compte après un redémarrage de AIB.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresse : %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AIBond network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées peuvent être obsolètes. Votre porte-monnaie est automatiquement synchronisé avec le réseau AIBond lorsque la connexion s&apos;établit, or ce processus n&apos;est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AIB network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées peuvent être obsolètes. Votre porte-monnaie est automatiquement synchronisé avec le réseau AIB lorsque la connexion s&apos;établit, or ce processus n&apos;est pas encore terminé.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adresse : %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start aibond: click-to-pay handler</source>
-        <translation>Impossible de démarrer aibond : gestionnaire de cliquer-pour-payer</translation>
+        <source>Cannot start aib: click-to-pay handler</source>
+        <translation>Impossible de démarrer aib : gestionnaire de cliquer-pour-payer</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the AIBond-Qt help message to get a list with possible AIBond command-line options.</source>
-        <translation>Afficher le message d&apos;aide de AIBond-Qt pour obtenir la liste des options de ligne de commande disponibles pour AIBond.</translation>
+        <source>Show the AIB-Qt help message to get a list with possible AIB command-line options.</source>
+        <translation>Afficher le message d&apos;aide de AIB-Qt pour obtenir la liste des options de ligne de commande disponibles pour AIB.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresse : %4
     </message>
     <message>
         <location line="-104"/>
-        <source>AIBond - Debug window</source>
-        <translation>AIBond - Fenêtre de débogage</translation>
+        <source>AIB - Debug window</source>
+        <translation>AIB - Fenêtre de débogage</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>AIBond Core</source>
-        <translation>Noyau AIBond</translation>
+        <source>AIB Core</source>
+        <translation>Noyau AIB</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the AIBond debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvrir le journal de débogage de AIBond depuis le répertoire de données actuel. Cela peut prendre quelques secondes pour les journaux de grande taille.</translation>
+        <source>Open the AIB debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvrir le journal de débogage de AIB depuis le répertoire de données actuel. Cela peut prendre quelques secondes pour les journaux de grande taille.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the AIBond RPC console.</source>
-        <translation>Bienvenue sur la console RPC de AIBond.</translation>
+        <source>Welcome to the AIB RPC console.</source>
+        <translation>Bienvenue sur la console RPC de AIB.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a AIBond address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrez une adresse AIBond (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a AIB address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Entrez une adresse AIB (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this AIBond address</source>
-        <translation>Signer le message pour prouver que vous détenez cette adresse AIBond</translation>
+        <source>Sign the message to prove you own this AIB address</source>
+        <translation>Signer le message pour prouver que vous détenez cette adresse AIB</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified AIBond address</source>
-        <translation>Vérifier le message pour vous assurer qu&apos;il a bien été signé par l&apos;adresse AIBond spécifiée</translation>
+        <source>Verify the message to ensure it was signed with the specified AIB address</source>
+        <translation>Vérifier le message pour vous assurer qu&apos;il a bien été signé par l&apos;adresse AIB spécifiée</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresse : %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a AIBond address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrez une adresse AIBond (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a AIB address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Entrez une adresse AIB (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter AIBond signature</source>
-        <translation>Entrer une signature AIBond</translation>
+        <source>Enter AIB signature</source>
+        <translation>Entrer une signature AIB</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adresse : %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The AIBond developers</source>
-        <translation>Les développeurs AIBond</translation>
+        <source>The AIB developers</source>
+        <translation>Les développeurs AIB</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresse : %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>AIBond version</source>
-        <translation>Version de AIBond</translation>
+        <source>AIB version</source>
+        <translation>Version de AIB</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adresse : %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or aibondd</source>
-        <translation>Envoyer une commande à -server ou à aibondd</translation>
+        <source>Send command to -server or aibd</source>
+        <translation>Envoyer une commande à -server ou à aibd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresse : %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: aibond.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut : aibond.conf)</translation>
+        <source>Specify configuration file (default: aib.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut : aib.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: aibondd.pid)</source>
-        <translation>Spécifier le fichier PID (par défaut : aibondd.pid)</translation>
+        <source>Specify pid file (default: aibd.pid)</source>
+        <translation>Spécifier le fichier PID (par défaut : aibd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Adresse : %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=aibondrpc
+rpcuser=aibrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;AIBond Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;AIB Alert&quot; admin@foo.com
 </source>
         <translation>%s, vous devez définir un mot de passe rpc dans le fichier de configuration : 
 %s
 Il vous est conseillé d&apos;utiliser le mot de passe aléatoire suivant :
-rpcuser=aibondrpc
+rpcuser=aibrpc
 rpcpassword=%s
 (vous n&apos;avez pas besoin de retenir ce mot de passe)
 Le nom d&apos;utilisateur et le mot de passe NE DOIVENT PAS être identiques.
 Si le fichier n&apos;existe pas, créez-le avec les droits de lecture accordés au propriétaire.
 Il est aussi conseillé de régler alertnotify pour être prévenu des problèmes ;
-par exemple : alertnotify=echo %%s | mail -s &quot;AIBond Alert&quot; admin@foo.com
+par exemple : alertnotify=echo %%s | mail -s &quot;AIB Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;AIBond Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. AIBond is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. AIBond fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s. AIB is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. AIB fonctionne probablement déjà.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;AIBond Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AIBond will not work properly.</source>
-        <translation>Attention : veuillez vérifier que l&apos;heure et la date de votre ordinateur sont correctes ! Si votre horloge n&apos;est pas à l&apos;heure, AIBond ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong AIB will not work properly.</source>
+        <translation>Attention : veuillez vérifier que l&apos;heure et la date de votre ordinateur sont correctes ! Si votre horloge n&apos;est pas à l&apos;heure, AIB ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;AIBond Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the AIBond Wiki for SSL setup instructions)</source>
-        <translation>Options SSL : (cf. le wiki de AIBond pour les instructions de configuration du SSL)</translation>
+        <source>SSL options: (see the AIB Wiki for SSL setup instructions)</source>
+        <translation>Options SSL : (cf. le wiki de AIB pour les instructions de configuration du SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ par exemple : alertnotify=echo %%s | mail -s &quot;AIBond Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of AIBond</source>
-        <translation>Erreur lors du chargement de wallet.dat : le porte-monnaie nécessite une version plus récente de AIBond</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of AIB</source>
+        <translation>Erreur lors du chargement de wallet.dat : le porte-monnaie nécessite une version plus récente de AIB</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart AIBond to complete</source>
-        <translation>Le porte-monnaie nécessitait une réécriture : veuillez redémarrer AIBond pour terminer l&apos;opération</translation>
+        <source>Wallet needed to be rewritten: restart AIB to complete</source>
+        <translation>Le porte-monnaie nécessitait une réécriture : veuillez redémarrer AIB pour terminer l&apos;opération</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;AIBond Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. AIBond is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. AIBond fonctionne probablement déjà.</translation>
+        <source>Unable to bind to %s on this computer. AIB is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. AIB fonctionne probablement déjà.</translation>
     </message>
     <message>
         <location line="+64"/>

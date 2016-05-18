@@ -273,7 +273,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = WTMINT_PUBKEY_ADDRESS, //65, // AIBond addresses start with L
+        PUBKEY_ADDRESS = WTMINT_PUBKEY_ADDRESS, //65, // AIB addresses start with L
         SCRIPT_ADDRESS = 5,
         PUBKEY_ADDRESS_TEST = 66,
         SCRIPT_ADDRESS_TEST = 196,

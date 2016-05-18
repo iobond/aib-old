@@ -1,4 +1,4 @@
-// Copyright (c) 2014 AIBond
+// Copyright (c) 2014 AIB
 // Copyright (c) 2011 Vince Durham
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
