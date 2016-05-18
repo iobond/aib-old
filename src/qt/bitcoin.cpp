@@ -1,6 +1,6 @@
-// Copyright (c) 2011-2013 The Bitcoin developers
-// Distributed under the MIT/X11 software license, see the accompanying
-// file COPYING or http://www.opensource.org/licenses/mit-license.php.
+/*
+ * W.J. van der Laan 2011-2012
+ */
 
 #include <QApplication>
 
@@ -155,7 +155,7 @@ int main(int argc, char *argv[])
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
     QApplication::setOrganizationName("AIBond");
-    QApplication::setOrganizationDomain("aibond.org");
+    QApplication::setOrganizationDomain("aib.iobond.com");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
         QApplication::setApplicationName("AIBond-Qt-testnet");
     else

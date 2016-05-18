@@ -32,3 +32,5 @@ qrc_*.cpp
 build
 
 !src/leveldb*/Makefile
+release
+object_*
