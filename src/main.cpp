@@ -1411,7 +1411,7 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBloc
 
 unsigned int static GetNextWorkRequired_V2(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
 {
-	static const int64	BlocksTargetSpacing			= 1 * 60; // 1 minute
+	static const int64	BlocksTargetSpacing			= WTMINT_BLOCK_nTargetSpacing; // 1 minute
 	unsigned int		TimeDaySeconds				= 60 * 60 * 24;
 	int64				PastSecondsMin				= TimeDaySeconds * 0.01;
 	int64				PastSecondsMax				= TimeDaySeconds * 0.14;

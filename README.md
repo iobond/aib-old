@@ -4,7 +4,7 @@ AIB integration/staging tree
 http://aib.iobond.com
 Copyright (c) 2009-2013 Bitcoin Developers
 Copyright (c) 2011-2014 Litecoin Developers
-Copyright (c) 2014-2016 AIB Developers
+Copyright (c) 2014-2017 AIB Developers
 
 
 What is AIB?
@@ -21,7 +21,7 @@ The rest is the same as Bitcoin & Litecoin
  - 2016 blocks to retarget difficulty
 
 For more information, as well as an immediately useable, binary version of
-the AIB client sofware, see http://aib.token.cf.
+the AIB client sofware, see http://aib.iobond.com
 
 License
 -------
