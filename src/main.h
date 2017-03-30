@@ -864,7 +864,7 @@ public:
  * - bit 2: vout[0] is not spent
  * - bit 4: vout[1] is not spent
  * - The higher bits encode N, the number of non-zero bytes in the following bitvector.
- *   - In case both bit 2 and bit 4 are unset, they encode N-1, as there must be at
+ *   - In case both bit 2 and bit 4 are unset, they encode N-1, as there must be at 
  *     least one non-spent output).
  *
  * Example: 0104835800816115944e077fe7c803cfa57f29b36bf87c1d358bb85e

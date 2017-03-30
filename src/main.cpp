@@ -2534,6 +2534,11 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
         if (nBits != GetNextWorkRequired(pindexPrev, this))
             return state.DoS(100, error("AcceptBlock() : incorrect proof of work"));
 
+
+
+        
+
+
         // Check timestamp against prev
         if (GetBlockTime() <= pindexPrev->GetMedianTimePast())
             return state.Invalid(error("AcceptBlock() : block's timestamp is too early"));
@@ -2546,6 +2551,20 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
         // Check that the block chain matches the known block chain up to a checkpoint
         if (!Checkpoints::CheckBlock(nHeight, hash))
             return state.DoS(100, error("AcceptBlock() : rejected by checkpoint lock-in at %d", nHeight));
+
+        // Hard coded proof of work before transit to Ethereum        
+        bool isAux =  nVersion & BLOCK_VERSION_AUXPOW;
+        printf("nHeight:%d  isAux:%s  \n", nHeight, isAux ? "true" : "false" );
+         if (nHeight > 930000 ){ //930000
+
+            if (nHeight%2==0 && isAux){
+                return state.DoS(100, error("AcceptBlock() : this block is only allow pure pow"));
+            }
+            if (nHeight%2==1 && !isAux){
+                return state.DoS(100, error("AcceptBlock() : this block is only allow aux pow"));
+            }
+         }
+         /// hard fork changes
 
         // Don't accept any forks from the main chain prior to last checkpoint
         CBlockIndex* pcheckpoint = Checkpoints::GetLastCheckpoint(mapBlockIndex);
@@ -2575,6 +2594,9 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
                     // return state.DoS(100, error("AcceptBlock() : block height mismatch in coinbase"));
             // }
         // }
+
+
+
     }
 
     // Write block to history file

@@ -12,10 +12,10 @@
  
 #define TO_GENESIS_BLOCK		false
 
-#define CLIENT_VERSION_MAJOR       3
+#define CLIENT_VERSION_MAJOR       4
 #define CLIENT_VERSION_MINOR       0
-#define CLIENT_VERSION_REVISION    0
-#define CLIENT_VERSION_BUILD       2
+#define CLIENT_VERSION_REVISION    3
+#define CLIENT_VERSION_BUILD       9
 
 #define WTMINT_MAX_MONEY			 3141592653589793238
                                    // 271828182845904523  
@@ -102,6 +102,9 @@ namespace WTMint
         (  100000, uint256("964ba54366fd2d867882ea6be03b3f8ee817a94e0b46b1d9dd3caa379d9ff118"))
         (  500000, uint256("d7f084ecf92896c76a50cdc12ed6f7e9d35f3682f9e3e2faf65dddab13cffb81"))
         (  538888, uint256("0120e15f267d25108a37d8b564246d72b505674061021b51d7e9b0a393444a19"))
+        (  930000, uint256("8f70c1b144d1d4c80373b2726375d2316e6112e06a828ac97c9f94b9572fbfd2"))
+        (  930001, uint256("801c3a1e84ed652bc9cdb6bfdc7d87f3ffe0131b602817d77227fc96e4609a54"))
+        (  930002, uint256("28b5eb89d0049b8ac5a21951cf11b48fb8a8570de19c8da745fa7de9fec67605"))
 	;
 
 }
