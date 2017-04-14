@@ -450,6 +450,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
             throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
     }
 
+
     if (strMode != "template")
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
 
@@ -459,11 +460,20 @@ Value getblocktemplate(const Array& params, bool fHelp)
     if (IsInitialBlockDownload())
         throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "AIB is downloading blocks...");
 
+
+
+   if (pindexBest && pindexBest->nHeight % 2 == 0) //hard fork 930000
+        throw JSONRPCError(RPC_POW_AUX_RULE_ERROR, "This block is only allow to mine in sCrypt AuxPOW");     
+
     // Update block
     static unsigned int nTransactionsUpdatedLast;
     static CBlockIndex* pindexPrev;
     static int64 nStart;
     static CBlockTemplate* pblocktemplate;
+
+ 
+
+
     if (pindexPrev != pindexBest ||
         (nTransactionsUpdated != nTransactionsUpdatedLast && GetTime() - nStart > 5))
     {
@@ -779,6 +789,9 @@ Value getauxblock(const Array& params, bool fHelp)
 
     if (IsInitialBlockDownload())
         throw JSONRPCError(-10, "Litecoin is downloading blocks...");
+
+   if (pindexBest && pindexBest->nHeight % 2 == 1) //hard fork 930000
+        throw JSONRPCError(RPC_POW_AUX_RULE_ERROR, "This block is only allow to mine in regular sCrypt POW");     
 
     static map<uint256, CBlock*> mapNewBlock;
     static vector<CBlockTemplate*> vNewBlockTemplate;

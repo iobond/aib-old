@@ -13,9 +13,9 @@
 #define TO_GENESIS_BLOCK		false
 
 #define CLIENT_VERSION_MAJOR       4
-#define CLIENT_VERSION_MINOR       0
-#define CLIENT_VERSION_REVISION    3
-#define CLIENT_VERSION_BUILD       9
+#define CLIENT_VERSION_MINOR       1
+#define CLIENT_VERSION_REVISION    0
+#define CLIENT_VERSION_BUILD       0
 
 #define WTMINT_MAX_MONEY			 3141592653589793238
                                    // 271828182845904523  
