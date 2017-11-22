@@ -40,9 +40,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("VIA");
-    case mBTC: return QString("mVIA");
-    case uBTC: return QString::fromUtf8("μVIA");
+    case BTC: return QString("AIB");
+    case mBTC: return QString("mAIB");
+    case uBTC: return QString::fromUtf8("μAIB");
     default: return QString("???");
     }
 }
