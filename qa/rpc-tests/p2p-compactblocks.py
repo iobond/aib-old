@@ -285,7 +285,7 @@ class CompactBlocksTest(BitcoinTestFramework):
         num_transactions = 25
         address = node.getnewaddress()
         if use_witness_address:
-            # Viacoin: compact inputs to fit block size
+            # Aibcoin: compact inputs to fit block size
             unspent = node.listunspent(20)
             while len(unspent) > 20:
                 a = node.getnewaddress()

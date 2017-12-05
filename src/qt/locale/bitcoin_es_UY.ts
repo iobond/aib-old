@@ -110,16 +110,16 @@
         <translation>Recibiendo direcciones</translation>
     </message>
     <message>
-        <source>Send coins to a Viacoin address</source>
-        <translation>Enviar monedas a una dirección Viacoin</translation>
+        <source>Send coins to a Aib address</source>
+        <translation>Enviar monedas a una dirección Aib</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>Cambie la clave utilizada para el cifrado del monedero</translation>
     </message>
     <message>
-        <source>Viacoin</source>
-        <translation>Viacoin</translation>
+        <source>Aib</source>
+        <translation>Aib</translation>
     </message>
     <message>
         <source>Wallet</source>

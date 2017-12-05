@@ -126,7 +126,7 @@ class NULLDUMMYTest(BitcoinTestFramework):
 
     def block_submit(self, node, txs, witness = False, accept = False):
         block = create_block(self.tip, create_coinbase(self.lastblockheight + 1), self.lastblocktime + 1)
-        #Viacoin: old block verions not accepted after segwit activation
+        #Aibcoin: old block verions not accepted after segwit activation
         block.nVersion = 0x83
         for tx in txs:
             tx.rehash()

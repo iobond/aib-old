@@ -158,8 +158,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Viacoin address</source>
-        <translation>Stuur munte na 'n Viacoin adres</translation>
+        <source>Send coins to a Aib address</source>
+        <translation>Stuur munte na 'n Aib adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -170,8 +170,8 @@
         <translation>Verander die wagwoord wat ek vir kodifikasie van my beursie gebruik</translation>
     </message>
     <message>
-        <source>Viacoin</source>
-        <translation>Viacoin</translation>
+        <source>Aib</source>
+        <translation>Aib</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Viacoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Viacoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your Aib addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u Aib adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Viacoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Viacoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Aib adresse</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -210,8 +210,8 @@
         <translation>Orebalk</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and viacoin: URIs)</source>
-        <translation>Versoek betalings (genereer QR-kodes en viacoin: URI's)</translation>
+        <source>Request payments (generates QR codes and aib: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en aib: URI's)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -222,8 +222,8 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
-        <source>Open a viacoin: URI or payment request</source>
-        <translation>Skep 'n viacoin: URI of betalingsversoek</translation>
+        <source>Open a aib: URI or payment request</source>
+        <translation>Skep 'n aib: URI of betalingsversoek</translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -710,8 +710,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Viacoin Core</source>
-        <translation>Viacoin Kern</translation>
+        <source>Aib Core</source>
+        <translation>Aib Kern</translation>
     </message>
     <message>
         <source>Information</source>

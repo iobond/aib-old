@@ -163,13 +163,13 @@ am__append_19 = \
   wallet/test/rpc_wallet_tests.cpp
 
 am__append_20 = $(LIBBITCOIN_WALLET)
-#am__append_21 = $(ZMQ_LIBS)
+am__append_21 = $(ZMQ_LIBS)
 am__append_22 = $(CLEAN_BITCOIN_TEST)
 
 # This file is problematic for out-of-tree builds if it exists.
 am__append_23 = test/buildenv.pyc
 am__append_24 = bench/bench_aib
-#am__append_25 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+am__append_25 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 am__append_26 = $(LIBBITCOIN_WALLET)
 am__append_27 = $(CLEAN_BITCOIN_BENCH)
 #am__append_28 = qt/aib-qt
@@ -179,7 +179,7 @@ am__append_27 = $(CLEAN_BITCOIN_BENCH)
 ##am__append_32 = $(BITCOIN_MM)
 ##am__append_33 = $(BITCOIN_RC)
 #am__append_34 = $(LIBBITCOIN_WALLET)
-##am__append_35 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+#am__append_35 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 #am__append_36 = $(CLEAN_QT)
 #am__append_37 = qt/test/test_aib-qt
 #am__append_38 = qt/test/test_aib-qt
@@ -188,7 +188,7 @@ am__append_27 = $(CLEAN_BITCOIN_BENCH)
 #  qt/test/paymentservertests.cpp
 
 #am__append_41 = $(LIBBITCOIN_WALLET)
-##am__append_42 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+#am__append_42 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 #am__append_43 = $(CLEAN_BITCOIN_QT_TEST)
 subdir = src
 SUBDIRS =
@@ -489,9 +489,9 @@ libbitcoin_zmq_a_AR = $(AR) $(ARFLAGS)
 libbitcoin_zmq_a_LIBADD =
 am__libbitcoin_zmq_a_SOURCES_DIST = zmq/zmqabstractnotifier.cpp \
 	zmq/zmqnotificationinterface.cpp zmq/zmqpublishnotifier.cpp
-#am_libbitcoin_zmq_a_OBJECTS = zmq/libbitcoin_zmq_a-zmqabstractnotifier.$(OBJEXT) \
-#	zmq/libbitcoin_zmq_a-zmqnotificationinterface.$(OBJEXT) \
-#	zmq/libbitcoin_zmq_a-zmqpublishnotifier.$(OBJEXT)
+am_libbitcoin_zmq_a_OBJECTS = zmq/libbitcoin_zmq_a-zmqabstractnotifier.$(OBJEXT) \
+	zmq/libbitcoin_zmq_a-zmqnotificationinterface.$(OBJEXT) \
+	zmq/libbitcoin_zmq_a-zmqpublishnotifier.$(OBJEXT)
 libbitcoin_zmq_a_OBJECTS = $(am_libbitcoin_zmq_a_OBJECTS)
 qt_libbitcoinqt_a_AR = $(AR) $(ARFLAGS)
 qt_libbitcoinqt_a_LIBADD =
@@ -879,9 +879,9 @@ am_bench_bench_aib_OBJECTS = bench/bench_bench_aib-bench_bitcoin.$(OBJEXT) \
 	bench/bench_bench_aib-crypto_hash.$(OBJEXT) \
 	bench/bench_bench_aib-base58.$(OBJEXT)
 bench_bench_aib_OBJECTS = $(am_bench_bench_aib_OBJECTS)
-#am__DEPENDENCIES_5 =  \
-#	$(LIBBITCOIN_ZMQ) \
-#	$(am__DEPENDENCIES_1)
+am__DEPENDENCIES_5 =  \
+	$(LIBBITCOIN_ZMQ) \
+	$(am__DEPENDENCIES_1)
 bench_bench_aib_DEPENDENCIES =  \
 	$(LIBBITCOIN_SERVER) $(LIBBITCOIN_COMMON) \
 	$(LIBBITCOIN_UTIL) $(LIBBITCOIN_CONSENSUS) \
@@ -909,9 +909,9 @@ am__qt_aib_qt_SOURCES_DIST = qt/bitcoin.cpp qt/macdockiconhandler.mm \
 #am_qt_aib_qt_OBJECTS = qt/qt_aib_qt-bitcoin.$(OBJEXT) \
 #	$(am__objects_22) $(am__objects_24)
 qt_aib_qt_OBJECTS = $(am_qt_aib_qt_OBJECTS)
-##am__DEPENDENCIES_6 =  \
-##	$(LIBBITCOIN_ZMQ) \
-##	$(am__DEPENDENCIES_1)
+#am__DEPENDENCIES_6 =  \
+#	$(LIBBITCOIN_ZMQ) \
+#	$(am__DEPENDENCIES_1)
 #qt_aib_qt_DEPENDENCIES = qt/libbitcoinqt.a \
 #	$(LIBBITCOIN_SERVER) $(am__append_34) \
 #	$(am__DEPENDENCIES_6) $(LIBBITCOIN_CLI) \
@@ -946,9 +946,9 @@ am__qt_test_test_aib_qt_SOURCES_DIST = qt/test/compattests.cpp \
 #	$(am__objects_27)
 qt_test_test_aib_qt_OBJECTS = $(am_qt_test_test_aib_qt_OBJECTS) \
 	$(nodist_qt_test_test_aib_qt_OBJECTS)
-##am__DEPENDENCIES_7 =  \
-##	$(LIBBITCOIN_ZMQ) \
-##	$(am__DEPENDENCIES_1)
+#am__DEPENDENCIES_7 =  \
+#	$(LIBBITCOIN_ZMQ) \
+#	$(am__DEPENDENCIES_1)
 #qt_test_test_aib_qt_DEPENDENCIES =  \
 #	$(LIBBITCOINQT) $(LIBBITCOIN_SERVER) \
 #	$(am__append_41) $(am__DEPENDENCIES_7) \
@@ -1073,8 +1073,8 @@ am__objects_30 = $(am__objects_3) $(am__objects_3)
 nodist_test_test_aib_OBJECTS = $(am__objects_30)
 test_test_aib_OBJECTS = $(am_test_test_aib_OBJECTS) \
 	$(nodist_test_test_aib_OBJECTS)
-#am__DEPENDENCIES_8 =  \
-#	$(am__DEPENDENCIES_1)
+am__DEPENDENCIES_8 =  \
+	$(am__DEPENDENCIES_1)
 test_test_aib_DEPENDENCIES = $(LIBBITCOIN_SERVER) \
 	$(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) \
 	$(LIBBITCOIN_UTIL) $(LIBBITCOIN_CONSENSUS) \
@@ -1627,9 +1627,9 @@ WINDOWS_BITS =
 WINDRES = 
 X11XCB_CFLAGS = 
 X11XCB_LIBS = 
-XGETTEXT = 
+XGETTEXT = /usr/bin/xgettext
 ZMQ_CFLAGS = 
-ZMQ_LIBS = 
+ZMQ_LIBS = -lzmq
 abs_builddir = /root/.netbeans/remote/91.121.91.168/bot0-Windows-x86_64/C/aib/src
 abs_srcdir = /root/.netbeans/remote/91.121.91.168/bot0-Windows-x86_64/C/aib/src
 abs_top_builddir = /root/.netbeans/remote/91.121.91.168/bot0-Windows-x86_64/C/aib
@@ -1712,7 +1712,7 @@ LIBBITCOIN_UTIL = libbitcoin_util.a
 LIBBITCOIN_CRYPTO = crypto/libbitcoin_crypto.a
 LIBBITCOINQT = qt/libbitcoinqt.a
 LIBSECP256K1 = secp256k1/libsecp256k1.la
-#LIBBITCOIN_ZMQ = libbitcoin_zmq.a
+LIBBITCOIN_ZMQ = libbitcoin_zmq.a
 LIBBITCOINCONSENSUS = libbitcoinconsensus.la
 LIBBITCOIN_WALLET = libbitcoin_wallet.a
 lib_LTLIBRARIES = $(LIBBITCOINCONSENSUS)
@@ -1843,12 +1843,12 @@ libbitcoin_server_a_SOURCES = \
   versionbits.cpp \
   $(BITCOIN_CORE_H)
 
-#libbitcoin_zmq_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
-#libbitcoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-#libbitcoin_zmq_a_SOURCES = \
-#  zmq/zmqabstractnotifier.cpp \
-#  zmq/zmqnotificationinterface.cpp \
-#  zmq/zmqpublishnotifier.cpp
+libbitcoin_zmq_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(ZMQ_CFLAGS)
+libbitcoin_zmq_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+libbitcoin_zmq_a_SOURCES = \
+  zmq/zmqabstractnotifier.cpp \
+  zmq/zmqnotificationinterface.cpp \
+  zmq/zmqpublishnotifier.cpp
 
 
 # wallet: shared between bitcoind and bitcoin-qt, but only linked

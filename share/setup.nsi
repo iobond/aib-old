@@ -50,22 +50,22 @@ Var StartMenuGroup
 # Installer attributes
 OutFile /root/.netbeans/remote/91.121.91.168/bot0-Windows-x86_64/C/aib/Aib-${VERSION}-win-setup.exe
 !if "" == "64"
-InstallDir $PROGRAMFILES64\Viacoin
+InstallDir $PROGRAMFILES64\Aibcoin
 !else
-InstallDir $PROGRAMFILES\Viacoin
+InstallDir $PROGRAMFILES\Aibcoin
 !endif
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.7
-VIAddVersionKey ProductName "Aib Core"
-VIAddVersionKey ProductVersion "${VERSION}"
-VIAddVersionKey CompanyName "${COMPANY}"
-VIAddVersionKey CompanyWebsite "${URL}"
-VIAddVersionKey FileVersion "${VERSION}"
-VIAddVersionKey FileDescription ""
-VIAddVersionKey LegalCopyright ""
+AIBddVersionKey ProductName "Aib Core"
+AIBddVersionKey ProductVersion "${VERSION}"
+AIBddVersionKey CompanyName "${COMPANY}"
+AIBddVersionKey CompanyWebsite "${URL}"
+AIBddVersionKey FileVersion "${VERSION}"
+AIBddVersionKey FileDescription ""
+AIBddVersionKey LegalCopyright ""
 InstallDirRegKey HKCU "${REGKEY}" Path
 ShowUninstDetails show
 
@@ -104,7 +104,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "Aib" "URL Protocol" ""
-    WriteRegStr HKCR "Aib" "" "URL:Viacoin"
+    WriteRegStr HKCR "Aib" "" "URL:Aibcoin"
     WriteRegStr HKCR "Aib\DefaultIcon" "" $INSTDIR\aib-qt
     WriteRegStr HKCR "Aib\shell\open\command" "" '"$INSTDIR\aib-qt" "%1"'
 SectionEnd
@@ -137,7 +137,7 @@ Section -un.post UNSEC0001
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Aib Core (testnet, -bit).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Viacoin.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Aibcoin.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

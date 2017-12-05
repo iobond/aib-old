@@ -86,8 +86,8 @@
         <translation>Změnit heslo k šifrování peněženky</translation>
     </message>
     <message>
-        <source>Viacoin</source>
-        <translation>Viacoin</translation>
+        <source>Aib</source>
+        <translation>Aib</translation>
     </message>
     <message>
         <source>&amp;File</source>

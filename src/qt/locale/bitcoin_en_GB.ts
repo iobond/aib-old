@@ -226,8 +226,8 @@
         <translation>Reindexing blocks on disk...</translation>
     </message>
     <message>
-        <source>Send coins to a Viacoin address</source>
-        <translation>Send coins to a Viacoin address</translation>
+        <source>Send coins to a Aib address</source>
+        <translation>Send coins to a Aib address</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -250,8 +250,8 @@
         <translation>&amp;Verify message...</translation>
     </message>
     <message>
-        <source>Viacoin</source>
-        <translation>Viacoin</translation>
+        <source>Aib</source>
+        <translation>Aib</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -278,12 +278,12 @@
         <translation>Encrypt the private keys that belong to your wallet</translation>
     </message>
     <message>
-        <source>Sign messages with your Viacoin addresses to prove you own them</source>
-        <translation>Sign messages with your Viacoin addresses to prove you own them</translation>
+        <source>Sign messages with your Aib addresses to prove you own them</source>
+        <translation>Sign messages with your Aib addresses to prove you own them</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Viacoin addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Viacoin addresses</translation>
+        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Aib addresses</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -302,8 +302,8 @@
         <translation>Tabs toolbar</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and viacoin: URIs)</source>
-        <translation>Request payments (generates QR codes and viacoin: URIs)</translation>
+        <source>Request payments (generates QR codes and aib: URIs)</source>
+        <translation>Request payments (generates QR codes and aib: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -314,16 +314,16 @@
         <translation>Show the list of used receiving addresses and labels</translation>
     </message>
     <message>
-        <source>Open a viacoin: URI or payment request</source>
-        <translation>Open a viacoin: URI or payment request</translation>
+        <source>Open a aib: URI or payment request</source>
+        <translation>Open a aib: URI or payment request</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Command-line options</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Viacoin network</source>
-        <translation><numerusform>%n active connection to Viacoin network</numerusform><numerusform>%n active connections to Viacoin network</numerusform></translation>
+        <source>%n active connection(s) to Aib network</source>
+        <translation><numerusform>%n active connection to Aib network</numerusform><numerusform>%n active connections to Aib network</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -390,8 +390,8 @@
         <translation>Up to date</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Viacoin command-line options</source>
-        <translation>Show the %1 help message to get a list with possible Viacoin command-line options</translation>
+        <source>Show the %1 help message to get a list with possible Aib command-line options</source>
+        <translation>Show the %1 help message to get a list with possible Aib command-line options</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -647,8 +647,8 @@
         <translation>As this is the first time the program is launched, you can choose where %1 will store its data.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Viacoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 will download and store a copy of the Viacoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
+        <source>%1 will download and store a copy of the Aib block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 will download and store a copy of the Aib block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -789,16 +789,16 @@
         <translation>&amp;Spend unconfirmed change</translation>
     </message>
     <message>
-        <source>Automatically open the Viacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Viacoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Map port using &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Viacoin network through a SOCKS5 proxy.</source>
-        <translation>Connect to the Viacoin network through a SOCKS5 proxy.</translation>
+        <source>Connect to the Aib network through a SOCKS5 proxy.</source>
+        <translation>Connect to the Aib network through a SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -817,12 +817,12 @@
         <translation>Port of the proxy (e.g. 9050)</translation>
     </message>
     <message>
-        <source>Used for reaching peers via:</source>
-        <translation>Used for reaching peers via:</translation>
+        <source>Used for reaching peers aib:</source>
+        <translation>Used for reaching peers aib:</translation>
     </message>
     <message>
-        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</translation>
+        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers aib this network type.</source>
+        <translation>Shows, if the supplied default SOCKS5 proxy is used to reach peers aib this network type.</translation>
     </message>
     <message>
         <source>IPv4</source>
@@ -837,12 +837,12 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Viacoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Connect to the Viacoin network through a separate SOCKS5 proxy for Tor hidden services.</translation>
+        <source>Connect to the Aib network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Connect to the Aib network through a separate SOCKS5 proxy for Tor hidden services.</translation>
     </message>
     <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</translation>
+        <source>Use separate SOCKS5 proxy to reach peers aib Tor hidden services:</source>
+        <translation>Use separate SOCKS5 proxy to reach peers aib Tor hidden services:</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -936,8 +936,8 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Viacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your Wallet automatically synchronises with the Viacoin Network after a connection is established, but this process has not been completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your Wallet automatically synchronises with the Aib Network after a connection is established, but this process has not been completed yet.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1029,8 +1029,8 @@
         <translation>Amount</translation>
     </message>
     <message>
-        <source>Enter a Viacoin address (e.g. %1)</source>
-        <translation>Enter a Viacoin address (e.g. %1)</translation>
+        <source>Enter a Aib address (e.g. %1)</source>
+        <translation>Enter a Aib address (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1327,8 +1327,8 @@
         <translation>(node id: %1)</translation>
     </message>
     <message>
-        <source>via %1</source>
-        <translation>via %1</translation>
+        <source>aib %1</source>
+        <translation>aib %1</translation>
     </message>
     <message>
         <source>never</source>
@@ -1378,8 +1378,8 @@
         <translation>R&amp;euse an existing receiving address (not recommended)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Viacoin network.</source>
-        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Viacoin network.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aib network.</source>
+        <translation>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aib network.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1551,8 +1551,8 @@
         <translation>total at least</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for viacoin transactions than the network can process.</source>
-        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for viacoin transactions than the network can process.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for aib transactions than the network can process.</source>
+        <translation>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for aib transactions than the network can process.</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
@@ -1642,8 +1642,8 @@
         <translation>This is a normal payment.</translation>
     </message>
     <message>
-        <source>The Viacoin address to send the payment to</source>
-        <translation>The Viacoin address to send the payment to</translation>
+        <source>The Aib address to send the payment to</source>
+        <translation>The Aib address to send the payment to</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1662,8 +1662,8 @@
         <translation>Remove this entry</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less viacoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>The fee will be deducted from the amount being sent. The recipient will receive less viacoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less coins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>The fee will be deducted from the amount being sent. The recipient will receive less aibcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -1686,8 +1686,8 @@
         <translation>Enter a label for this address to add it to the list of used addresses</translation>
     </message>
     <message>
-        <source>A message that was attached to the viacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Viacoin network.</source>
-        <translation>A message that was attached to the viacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Viacoin network.</translation>
+        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aib network.</source>
+        <translation>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aib network.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1723,12 +1723,12 @@
         <translation>&amp;Sign Message</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive viacoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>You can sign messages/agreements with your addresses to prove you can receive viacoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
+        <source>You can sign messages/agreements with your addresses to prove you can receive aibcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>You can sign messages/agreements with your addresses to prove you can receive aibcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</translation>
     </message>
     <message>
-        <source>The Viacoin address to sign the message with</source>
-        <translation>The Viacoin address to sign the message with</translation>
+        <source>The Aib address to sign the message with</source>
+        <translation>The Aib address to sign the message with</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1759,8 +1759,8 @@
         <translation>Copy the current signature to the system clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Viacoin address</source>
-        <translation>Sign the message to prove you own this Viacoin address</translation>
+        <source>Sign the message to prove you own this Aib address</source>
+        <translation>Sign the message to prove you own this Aib address</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1783,12 +1783,12 @@
         <translation>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</translation>
     </message>
     <message>
-        <source>The Viacoin address the message was signed with</source>
-        <translation>The Viacoin address the message was signed with</translation>
+        <source>The Aib address the message was signed with</source>
+        <translation>The Aib address the message was signed with</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Viacoin address</source>
-        <translation>Verify the message to ensure it was signed with the specified Viacoin address</translation>
+        <source>Verify the message to ensure it was signed with the specified Aib address</source>
+        <translation>Verify the message to ensure it was signed with the specified Aib address</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1936,8 +1936,8 @@
         <translation>Accept connections from outside (default: 1 if no -proxy or -connect)</translation>
     </message>
     <message>
-        <source>Viacoin Core</source>
-        <translation>Viacoin Core</translation>
+        <source>Aib Core</source>
+        <translation>Aib Core</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -2344,8 +2344,8 @@
         <translation>Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
     </message>
     <message>
-        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
+        <source>Query for peer addresses aib DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation>Query for peer addresses aib DNS lookup, if low on addresses (default: 1 unless -connect)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
@@ -2592,8 +2592,8 @@
         <translation>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</translation>
     </message>
     <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</translation>
+        <source>Use separate SOCKS5 proxy to reach peers aib Tor hidden services (default: %s)</source>
+        <translation>Use separate SOCKS5 proxy to reach peers aib Tor hidden services (default: %s)</translation>
     </message>
     <message>
         <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. This option can be specified multiple times</source>
@@ -2612,8 +2612,8 @@
         <translation>(default: %s)</translation>
     </message>
     <message>
-        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Always query for peer addresses via DNS lookup (default: %u)</translation>
+        <source>Always query for peer addresses aib DNS lookup (default: %u)</source>
+        <translation>Always query for peer addresses aib DNS lookup (default: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>

@@ -130,8 +130,8 @@
         <translation>Reindexando bloques no disco...</translation>
     </message>
     <message>
-        <source>Send coins to a Viacoin address</source>
-        <translation>Enviar moedas a unha dirección Viacoin</translation>
+        <source>Send coins to a Aib address</source>
+        <translation>Enviar moedas a unha dirección Aib</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -154,8 +154,8 @@
         <translation>&amp;Verificar mensaxe...</translation>
     </message>
     <message>
-        <source>Viacoin</source>
-        <translation>Viacoin</translation>
+        <source>Aib</source>
+        <translation>Aib</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -182,12 +182,12 @@
         <translation>Encriptar as claves privadas que pertencen ao teu moedeiro</translation>
     </message>
     <message>
-        <source>Sign messages with your Viacoin addresses to prove you own them</source>
-        <translation>Asina mensaxes coas túas direccións Viacoin para probar que te pertencen</translation>
+        <source>Sign messages with your Aib addresses to prove you own them</source>
+        <translation>Asina mensaxes coas túas direccións Aib para probar que te pertencen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Viacoin addresses</source>
-        <translation>Verificar mensaxes para asegurar que foron asinados con direccións Viacoin dadas.</translation>
+        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
+        <translation>Verificar mensaxes para asegurar que foron asinados con direccións Aib dadas.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -206,8 +206,8 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and viacoin: URIs)</source>
-        <translation>Solicitar pagos (xenera códigos QR e viacoin: URIs)</translation>
+        <source>Request payments (generates QR codes and aib: URIs)</source>
+        <translation>Solicitar pagos (xenera códigos QR e aib: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -218,8 +218,8 @@
         <translation>Amosar a listaxe de etiquetas e direccións para recibir empregadas</translation>
     </message>
     <message>
-        <source>Open a viacoin: URI or payment request</source>
-        <translation>Abrir un viacoin: URI ou solicitude de pago</translation>
+        <source>Open a aib: URI or payment request</source>
+        <translation>Abrir un aib: URI ou solicitude de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -467,8 +467,8 @@
         <translation>Moedeiro</translation>
     </message>
     <message>
-        <source>Automatically open the Viacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente o porto do cliente Viacoin no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
+        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente o porto do cliente Aib no router. Esto so funciona se o teu router soporta UPnP e está habilitado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -546,8 +546,8 @@
         <translation>Formulario</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Viacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Viacoin despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
+        <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Aib despois de que se estableza unha conexión, pero este proceso non está todavía rematado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -929,8 +929,8 @@
         <translation>Copiar a sinatura actual ao portapapeis do sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Viacoin address</source>
-        <translation>Asina a mensaxe para probar que posees esta dirección Viacoin</translation>
+        <source>Sign the message to prove you own this Aib address</source>
+        <translation>Asina a mensaxe para probar que posees esta dirección Aib</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -949,8 +949,8 @@
         <translation>&amp;Verificar Mensaxe</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Viacoin address</source>
-        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Viacoin especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified Aib address</source>
+        <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Aib especificada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1034,8 +1034,8 @@
         <translation>Aceptar conexións de fóra (por defecto: 1 se non -proxy ou -connect)</translation>
     </message>
     <message>
-        <source>Viacoin Core</source>
-        <translation>Core de Viacoin</translation>
+        <source>Aib Core</source>
+        <translation>Core de Aib</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

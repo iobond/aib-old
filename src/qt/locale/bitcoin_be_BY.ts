@@ -146,8 +146,8 @@
         <translation>Пераіндэксацыя блокаў на дыску...</translation>
     </message>
     <message>
-        <source>Send coins to a Viacoin address</source>
-        <translation>Даслаць манеты на Viacoin-адрас</translation>
+        <source>Send coins to a Aib address</source>
+        <translation>Даслаць манеты на Aib-адрас</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -170,8 +170,8 @@
         <translation>Праверыць паведамленне...</translation>
     </message>
     <message>
-        <source>Viacoin</source>
-        <translation>Viacoin</translation>
+        <source>Aib</source>
+        <translation>Aib</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -198,12 +198,12 @@
         <translation>Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
     </message>
     <message>
-        <source>Sign messages with your Viacoin addresses to prove you own them</source>
-        <translation>Падпісаць паведамленне з дапамогай Viacoin-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Sign messages with your Aib addresses to prove you own them</source>
+        <translation>Падпісаць паведамленне з дапамогай Aib-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Viacoin addresses</source>
-        <translation>Спраўдзіць паведамленне з дапамогай Viacoin-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
+        <translation>Спраўдзіць паведамленне з дапамогай Aib-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -218,8 +218,8 @@
         <translation>Дапамога</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and viacoin: URIs)</source>
-        <translation>Запатрабаваць плацёж (генеруецца QR-код для Viacoin URI)</translation>
+        <source>Request payments (generates QR codes and aib: URIs)</source>
+        <translation>Запатрабаваць плацёж (генеруецца QR-код для Aib URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -230,16 +230,16 @@
         <translation>Паказаць спіс адрасоў і метак для прымання</translation>
     </message>
     <message>
-        <source>Open a viacoin: URI or payment request</source>
-        <translation>Адкрыць Viacoin: URI ці запыт плацяжу</translation>
+        <source>Open a aib: URI or payment request</source>
+        <translation>Адкрыць Aib: URI ці запыт плацяжу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Опцыі каманднага радка</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Viacoin network</source>
-        <translation><numerusform>%n актыўнае злучэнне з сецівам Viacoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Viacoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Viacoin</numerusform><numerusform>%n актыўных злучэнняў з сецівам Viacoin</numerusform></translation>
+        <source>%n active connection(s) to Aib network</source>
+        <translation><numerusform>%n актыўнае злучэнне з сецівам Aib</numerusform><numerusform>%n актыўных злучэнняў з сецівам Aib</numerusform><numerusform>%n актыўных злучэнняў з сецівам Aib</numerusform><numerusform>%n актыўных злучэнняў з сецівам Aib</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -736,8 +736,8 @@
         <translation>Запусціць у фоне як дэман і прымаць каманды</translation>
     </message>
     <message>
-        <source>Viacoin Core</source>
-        <translation>Viacoin Core</translation>
+        <source>Aib Core</source>
+        <translation>Aib Core</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>

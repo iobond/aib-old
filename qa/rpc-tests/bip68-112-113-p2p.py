@@ -426,7 +426,7 @@ class BIP68_112_113Test(ComparisonTestFramework):
 
         # Height txs should fail and time txs should now pass 9 * 600 > 10 * 512
         #bip68success_txs.extend(bip68timetxs)
-        #Viacoin: not unlocked at this height yet due to shorter blocktimes
+        #Aibcoin: not unlocked at this height yet due to shorter blocktimes
         #yield TestInstance([[self.create_test_block(bip68success_txs), True]]) # 25
         yield TestInstance([[self.create_test_block([]), True]])
         self.nodes[0].invalidateblock(self.nodes[0].getbestblockhash())

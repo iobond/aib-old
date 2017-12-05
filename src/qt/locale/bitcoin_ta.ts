@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>Viacoin</source>
-        <translation>Viacoin</translation>
+        <source>Aib</source>
+        <translation>Aib</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -497,8 +497,8 @@
         <translation>%1 GB</translation>
     </message>
     <message>
-        <source>via %1</source>
-        <translation>via %1</translation>
+        <source>aib %1</source>
+        <translation>aib %1</translation>
     </message>
     <message>
         <source>never</source>
@@ -714,8 +714,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Viacoin Core</source>
-        <translation>Viacoin மையம்</translation>
+        <source>Aib Core</source>
+        <translation>Aib மையம்</translation>
     </message>
     <message>
         <source>(default: %u)</source>

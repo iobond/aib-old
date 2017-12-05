@@ -21,7 +21,7 @@ Construct a linear, no-fork, best version of the blockchain.
 
 ### [Qos](/contrib/qos) ###
 
-A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the Viacoin network. This means one can have an always-on viacoind instance running, and another local viacoind/viacoin-qt instance which connects to this node and receives blocks from it.
+A Linux bash script that will set up traffic control (tc) to limit the outgoing bandwidth for connections to the Aibcoin network. This means one can have an always-on aibcoind instance running, and another local aibcoind/aibcoin-qt instance which connects to this node and receives blocks from it.
 
 ### [Seeds](/contrib/seeds) ###
 Utility to generate the pnSeed[] array that is compiled into the client.
@@ -30,26 +30,26 @@ Build Tools and Keys
 ---------------------
 
 ### [Debian](/contrib/debian) ###
-Contains files used to package viacoind/viacoin-qt
-for Debian-based Linux systems. If you compile viacoind/viacoin-qt yourself, there are some useful files here.
+Contains files used to package aibcoind/aibcoin-qt
+for Debian-based Linux systems. If you compile aibcoind/aibcoin-qt yourself, there are some useful files here.
 
 ### [Gitian-descriptors](/contrib/gitian-descriptors) ###
 Notes on getting Gitian builds up and running using KVM.
 
 ### [Gitian-keys](/contrib/gitian-keys)
-PGP keys used for signing Viacoin Core [Gitian release](/doc/release-process.md) results.
+PGP keys used for signing Aibcoin Core [Gitian release](/doc/release-process.md) results.
 
 ### [MacDeploy](/contrib/macdeploy) ###
 Scripts and notes for Mac builds. 
 
 ### [RPM](/contrib/rpm) ###
-RPM spec file for building viacoin-core on RPM based distributions
+RPM spec file for building aibcoin-core on RPM based distributions
 
 Test and Verify Tools 
 ---------------------
 
 ### [TestGen](/contrib/testgen) ###
-Utilities to generate test vectors for the data-driven Viacoin tests.
+Utilities to generate test vectors for the data-driven Aibcoin tests.
 
 ### [Verify Binaries](/contrib/verifybinaries) ###
-This script attempts to download and verify the signature file SHA256SUMS.asc from viacoin.org.
+This script attempts to download and verify the signature file SHA256SUMS.asc from aibcoin.org.

@@ -580,7 +580,7 @@ class FullBlockTest(ComparisonTestFramework):
         tx.rehash()
         new_txs.append(tx)
         update_block(40, new_txs)
-        #Viacoin: block size is exceeded faster
+        #Aibcoin: block size is exceeded faster
         #yield rejected(RejectResult(16, b'bad-blk-sigops'))
         yield rejected(RejectResult(16, b'bad-blk-length'))
 
@@ -593,7 +593,7 @@ class FullBlockTest(ComparisonTestFramework):
         tx.vin.append(CTxIn(lastOutpoint, b''))
         tx.vout.append(CTxOut(1, CScript([OP_CHECKSIG] * b41_sigops_to_fill)))
         tx.rehash()
-        #Viacoin: block size is exceeded faster
+        #Aibcoin: block size is exceeded faster
         #update_block(41, [tx])
         yield accepted()
 

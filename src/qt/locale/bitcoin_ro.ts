@@ -142,8 +142,8 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Viacoin address</source>
-        <translation>Trimite monedele către o adresă Viacoin</translation>
+        <source>Send coins to a Aib address</source>
+        <translation>Trimite monedele către o adresă Aib</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verifică mesajul...</translation>
     </message>
     <message>
-        <source>Viacoin</source>
-        <translation>Viacoin</translation>
+        <source>Aib</source>
+        <translation>Aib</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Criptează cheile private care aparțin portofelului tău.</translation>
     </message>
     <message>
-        <source>Sign messages with your Viacoin addresses to prove you own them</source>
-        <translation>Semnează mesajele cu adresa ta de Viacoin pentru a face dovada că îți aparțin.</translation>
+        <source>Sign messages with your Aib addresses to prove you own them</source>
+        <translation>Semnează mesajele cu adresa ta de Aib pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Viacoin addresses</source>
-        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Viacoin specificată.</translation>
+        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Aib specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -214,12 +214,12 @@
         <translation>&amp;Ajutor</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and viacoin: URIs)</source>
-        <translation>Cerere plată (generează coduri QR și viacoin: URIs)</translation>
+        <source>Request payments (generates QR codes and aib: URIs)</source>
+        <translation>Cerere plată (generează coduri QR și aib: URIs)</translation>
     </message>
     <message>
-        <source>Open a viacoin: URI or payment request</source>
-        <translation>Deschide un viacoin: URI sau cerere de plată</translation>
+        <source>Open a aib: URI or payment request</source>
+        <translation>Deschide un aib: URI sau cerere de plată</translation>
     </message>
     <message>
         <source>%1 and %2</source>
@@ -746,8 +746,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Viacoin Core</source>
-        <translation>Viacoin Core</translation>
+        <source>Aib Core</source>
+        <translation>Aib Core</translation>
     </message>
     <message>
         <source>Information</source>

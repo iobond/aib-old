@@ -235,8 +235,7 @@ am__DIST_COMMON = $(srcdir)/Makefile.in \
 	$(top_srcdir)/src/config/bitcoin-config.h.in \
 	$(top_srcdir)/src/test/buildenv.py.in COPYING \
 	build-aux/compile build-aux/config.guess build-aux/config.sub \
-	build-aux/depcomp build-aux/install-sh build-aux/ltmain.sh \
-	build-aux/missing
+	build-aux/install-sh build-aux/ltmain.sh build-aux/missing
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
 distdir = $(PACKAGE)-$(VERSION)
 top_distdir = $(distdir)
@@ -464,9 +463,9 @@ WINDOWS_BITS =
 WINDRES = 
 X11XCB_CFLAGS = 
 X11XCB_LIBS = 
-XGETTEXT = 
+XGETTEXT = /usr/bin/xgettext
 ZMQ_CFLAGS = 
-ZMQ_LIBS = 
+ZMQ_LIBS = -lzmq
 abs_builddir = /root/.netbeans/remote/91.121.91.168/bot0-Windows-x86_64/C/aib
 abs_srcdir = /root/.netbeans/remote/91.121.91.168/bot0-Windows-x86_64/C/aib
 abs_top_builddir = /root/.netbeans/remote/91.121.91.168/bot0-Windows-x86_64/C/aib

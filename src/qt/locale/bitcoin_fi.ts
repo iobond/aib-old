@@ -166,8 +166,8 @@
         <translation>Ladataan lohkoindeksiä...</translation>
     </message>
     <message>
-        <source>Send coins to a Viacoin address</source>
-        <translation>Lähetä kolikoita Viacoin-osoitteeseen</translation>
+        <source>Send coins to a Aib address</source>
+        <translation>Lähetä kolikoita Aib-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -190,8 +190,8 @@
         <translation>Varmista &amp;viesti...</translation>
     </message>
     <message>
-        <source>Viacoin</source>
-        <translation>Viacoin</translation>
+        <source>Aib</source>
+        <translation>Aib</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -211,19 +211,19 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Viacoin-ikkuna</translation>
+        <translation>Näytä tai piilota Aib-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Suojaa yksityiset avaimet, jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>Sign messages with your Viacoin addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla Viacoin -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your Aib addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla Aib -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Viacoin addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Viacoin -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Aib -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -242,8 +242,8 @@
         <translation>Välilehtipalkki</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and viacoin: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja viacoin: URIt)</translation>
+        <source>Request payments (generates QR codes and aib: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja aib: URIt)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -254,16 +254,16 @@
         <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
     </message>
     <message>
-        <source>Open a viacoin: URI or payment request</source>
-        <translation>Avaa viacoin: URI tai maksupyyntö</translation>
+        <source>Open a aib: URI or payment request</source>
+        <translation>Avaa aib: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Viacoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys Viacoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Viacoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to Aib network</source>
+        <translation><numerusform>%n aktiivinen yhteys Aib-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Aib-verkkoon</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -330,8 +330,8 @@
         <translation>Rahansiirtohistoria on ajan tasalla</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Viacoin command-line options</source>
-        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista Viacoinin komentorivivalinnoista</translation>
+        <source>Show the %1 help message to get a list with possible Aib command-line options</source>
+        <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista Aibcoinin komentorivivalinnoista</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -583,8 +583,8 @@
         <translation>Tämä on ensimmäinen kerta, kun %1 on käynnistetty, joten voit valita data-hakemiston paikan.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Viacoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 lataa ja tallentaa kopion Viacoinin lohkoketjusta. Vähintään %2Gt dataa tullaan tallentamaan tähän hakemistoon, ja tarve kasvaa ajan myötä. Lompakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+        <source>%1 will download and store a copy of the Aib block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 lataa ja tallentaa kopion Aibcoinin lohkoketjusta. Vähintään %2Gt dataa tullaan tallentamaan tähän hakemistoon, ja tarve kasvaa ajan myötä. Lompakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -725,16 +725,16 @@
         <translation>&amp;Käytä varmistamattomia vaihtorahoja</translation>
     </message>
     <message>
-        <source>Automatically open the Viacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Viacoin-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Aib-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portin uudelleenohjaus &amp;UPnP:llä</translation>
     </message>
     <message>
-        <source>Connect to the Viacoin network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Viacoin-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <source>Connect to the Aib network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä Aib-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -753,11 +753,11 @@
         <translation>Proxyn Portti (esim. 9050)</translation>
     </message>
     <message>
-        <source>Used for reaching peers via:</source>
+        <source>Used for reaching peers aib:</source>
         <translation>Vertaisten saavuttamiseen käytettävät verkkotyypit:</translation>
     </message>
     <message>
-        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
+        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers aib this network type.</source>
         <translation>Ilmoittaa, mikäli oletetettua SOCKS5-välityspalvelinta käytetään tämän verkkotyypin kautta vertaisten saavuttamiseen.</translation>
     </message>
     <message>
@@ -773,11 +773,11 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Viacoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Yhdistä Viacoin-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
+        <source>Connect to the Aib network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Yhdistä Aib-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
     </message>
     <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
+        <source>Use separate SOCKS5 proxy to reach peers aib Tor hidden services:</source>
         <translation>Käytä erillistä SOCKS5-välityspalvelinta saavuttaaksesi vertaisia piilotettujen Tor-palveluiden kautta:</translation>
     </message>
     <message>
@@ -810,11 +810,11 @@
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö jona viacoin-määrät näytetään</translation>
+        <translation>Yksikkö jona aib-määrät näytetään</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti viacoin-määrien näyttämiseen.</translation>
+        <translation>Valitse mitä yksikköä käytetään ensisijaisesti aib-määrien näyttämiseen.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -864,8 +864,8 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Viacoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Viacoin-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Aib-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -905,7 +905,7 @@
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Tililläsi tällä hetkellä olevien Viacoinien määrä</translation>
+        <translation>Tililläsi tällä hetkellä olevien Aibcoinien määrä</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
@@ -957,8 +957,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Viacoin address (e.g. %1)</source>
-        <translation>Syötä Viacoin-osoite (esim. %1)</translation>
+        <source>Enter a Aib address (e.g. %1)</source>
+        <translation>Syötä Aib-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1251,7 +1251,7 @@
         <translation>(solmukohdan id: %1)</translation>
     </message>
     <message>
-        <source>via %1</source>
+        <source>aib %1</source>
         <translation>%1 kautta</translation>
     </message>
     <message>
@@ -1302,8 +1302,8 @@
         <translation>&amp;Uudelleenkäytä vastaanotto-osoitetta (ei suositella)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Viacoin network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Viacoin-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aib network.</source>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Aib-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1376,7 +1376,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä Viacoineja</translation>
+        <translation>Lähetä Aibcoineja</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1538,8 +1538,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Viacoin address to send the payment to</source>
-        <translation>Viacoin-osoite johon maksu lähetetään</translation>
+        <source>The Aib address to send the payment to</source>
+        <translation>Aib-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1558,8 +1558,8 @@
         <translation>Poista tämä alkio</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less viacoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän viacoineja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less aibcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>Kulu vähennetään lähetettävästä määrästä. Saaja vastaanottaa vähemmän aibcoineja kuin merkitset Määrä-kenttään. Jos saajia on monia, kulu jaetaan tasan.</translation>
     </message>
     <message>
         <source>S&amp;ubtract fee from amount</source>
@@ -1582,8 +1582,8 @@
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the viacoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Viacoin network.</source>
-        <translation>Viesti joka liitettiin viacoin: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Viacoin-verkkoon.</translation>
+        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aib network.</source>
+        <translation>Viesti joka liitettiin aib: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Aib-verkkoon.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1619,8 +1619,8 @@
         <translation>&amp;Allekirjoita viesti</translation>
     </message>
     <message>
-        <source>The Viacoin address to sign the message with</source>
-        <translation>Viacoin-osoite jolla viesti allekirjoitetaan</translation>
+        <source>The Aib address to sign the message with</source>
+        <translation>Aib-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1651,8 +1651,8 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Viacoin address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Viacoin-osoitteen</translation>
+        <source>Sign the message to prove you own this Aib address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Aib-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1671,12 +1671,12 @@
         <translation>&amp;Varmista viesti</translation>
     </message>
     <message>
-        <source>The Viacoin address the message was signed with</source>
-        <translation>Viacoin-osoite jolla viesti on allekirjoitettu</translation>
+        <source>The Aib address the message was signed with</source>
+        <translation>Aib-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Viacoin address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Viacoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Aib address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Aib-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1800,8 +1800,8 @@
         <translation>Hyväksy yhteyksiä ulkopuolelta (vakioasetus: 1 jos -proxy tai -connect ei määritelty)</translation>
     </message>
     <message>
-        <source>Viacoin Core</source>
-        <translation>Viacoin-ydin</translation>
+        <source>Aib Core</source>
+        <translation>Aib-ydin</translation>
     </message>
     <message>
         <source>The %s developers</source>
@@ -2256,7 +2256,7 @@
         <translation>Tulosta debuggaustieto (oletus: %u, annettu &lt;category&gt; valinnainen)</translation>
     </message>
     <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
+        <source>Use separate SOCKS5 proxy to reach peers aib Tor hidden services (default: %s)</source>
         <translation>Käytä erillistä SOCKS5-proxyä tavoittaaksesi vertaisia Tor-piilopalveluiden kautta (oletus: %s)</translation>
     </message>
     <message>
@@ -2264,7 +2264,7 @@
         <translation>(oletus: %s)</translation>
     </message>
     <message>
-        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
+        <source>Always query for peer addresses aib DNS lookup (default: %u)</source>
         <translation>Pyydä vertaisten osoitteita aina DNS-kyselyjen avulla (oletus: %u)</translation>
     </message>
     <message>

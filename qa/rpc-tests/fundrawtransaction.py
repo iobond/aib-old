@@ -201,9 +201,9 @@ class RawTransactionsTest(BitcoinTestFramework):
 
         try:
             self.nodes[2].fundrawtransaction(rawtx, {'changeAddress': 'foobar'})
-            raise AssertionError("Accepted invalid viacoin address")
+            raise AssertionError("Accepted invalid aibcoin address")
         except JSONRPCException as e:
-            assert("changeAddress must be a valid viacoin address" in e.error['message'])
+            assert("changeAddress must be a valid aibcoin address" in e.error['message'])
 
 
         ############################################################

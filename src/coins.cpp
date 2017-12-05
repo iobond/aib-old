@@ -147,7 +147,7 @@ bool CCoinsViewCache::HaveCoins(const uint256 &txid) const {
     // as we only care about the case where a transaction was replaced entirely
     // in a reorganization (which wipes vout entirely, as opposed to spending
     // which just cleans individual outputs).
-    return (it != cacheCoins.end() ); //&& !it->second.coins.vout.empty());
+    return (it != cacheCoins.end() && !it->second.coins.vout.empty());
 }
 
 bool CCoinsViewCache::HaveCoinsInCache(const uint256 &txid) const {

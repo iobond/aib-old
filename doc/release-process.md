@@ -21,12 +21,12 @@ Before every major release:
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
-    git clone https://github.com/viacoin/gitian.sigs.via.git
-    git clone https://github.com/viacoin/viacoin-detached-sigs.git
+    git clone https://github.com/aibcoin/gitian.sigs.aib.git
+    git clone https://github.com/aibcoin/aibcoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
-    git clone https://github.com/viacoin/viacoin.git
+    git clone https://github.com/aibcoin/aibcoin.git
 
-### Viacoin maintainers/release engineers, update version in sources
+### Aibcoin maintainers/release engineers, update version in sources
 
 Update the following:
 
@@ -63,16 +63,16 @@ Tag version (or release candidate) in git
 
 Setup Gitian descriptors:
 
-    pushd ./viacoin
+    pushd ./aibcoin
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
     git checkout v${VERSION}
     popd
 
-Ensure your gitian.sigs.via are up-to-date if you wish to gverify your builds against other Gitian signatures.
+Ensure your gitian.sigs.aib are up-to-date if you wish to gverify your builds against other Gitian signatures.
 
-    pushd ./gitian.sigs.via
+    pushd ./gitian.sigs.aib
     git pull
     popd
 
@@ -97,7 +97,7 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
-    make -C ../viacoin/depends download SOURCES_PATH=`pwd`/cache/common
+    make -C ../aibcoin/depends download SOURCES_PATH=`pwd`/cache/common
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -105,94 +105,94 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
-    ./bin/gbuild --url viacoin=/path/to/viacoin,signature=/path/to/sigs {rest of arguments}
+    ./bin/gbuild --url aibcoin=/path/to/aibcoin,signature=/path/to/sigs {rest of arguments}
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
-### Build and sign Viacoin Core for Linux, Windows, and OS X:
+### Build and sign Aibcoin Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
-    ./bin/gbuild --memory 3000 --commit viacoin=v${VERSION} ../viacoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.via/ ../viacoin/contrib/gitian-descriptors/gitian-linux.yml
-    mv build/out/viacoin-*.tar.gz build/out/src/viacoin-*.tar.gz ../
+    ./bin/gbuild --memory 3000 --commit aibcoin=v${VERSION} ../aibcoin/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.aib/ ../aibcoin/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/aibcoin-*.tar.gz build/out/src/aibcoin-*.tar.gz ../
 
-    ./bin/gbuild --memory 3000 --commit viacoin=v${VERSION} ../viacoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.via/ ../viacoin/contrib/gitian-descriptors/gitian-win.yml
-    mv build/out/viacoin-*-win-unsigned.tar.gz inputs/viacoin-win-unsigned.tar.gz
-    mv build/out/viacoin-*.zip build/out/viacoin-*.exe ../
+    ./bin/gbuild --memory 3000 --commit aibcoin=v${VERSION} ../aibcoin/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.aib/ ../aibcoin/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/aibcoin-*-win-unsigned.tar.gz inputs/aibcoin-win-unsigned.tar.gz
+    mv build/out/aibcoin-*.zip build/out/aibcoin-*.exe ../
 
-    ./bin/gbuild --memory 3000 --commit viacoin=v${VERSION} ../viacoin/contrib/gitian-descriptors/gitian-osx.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.via/ ../viacoin/contrib/gitian-descriptors/gitian-osx.yml
-    mv build/out/viacoin-*-osx-unsigned.tar.gz inputs/viacoin-osx-unsigned.tar.gz
-    mv build/out/viacoin-*.tar.gz build/out/viacoin-*.dmg ../
+    ./bin/gbuild --memory 3000 --commit aibcoin=v${VERSION} ../aibcoin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.aib/ ../aibcoin/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/aibcoin-*-osx-unsigned.tar.gz inputs/aibcoin-osx-unsigned.tar.gz
+    mv build/out/aibcoin-*.tar.gz build/out/aibcoin-*.dmg ../
     popd
 
 Build output expected:
 
-  1. source tarball (`viacoin-${VERSION}.tar.gz`)
-  2. linux 32-bit and 64-bit dist tarballs (`viacoin-${VERSION}-linux[32|64].tar.gz`)
-  3. windows 32-bit and 64-bit unsigned installers and dist zips (`viacoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `viacoin-${VERSION}-win[32|64].zip`)
-  4. OS X unsigned installer and dist tarball (`viacoin-${VERSION}-osx-unsigned.dmg`, `viacoin-${VERSION}-osx64.tar.gz`)
-  5. Gitian signatures (in `gitian.sigs.via/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
+  1. source tarball (`aibcoin-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`aibcoin-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`aibcoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `aibcoin-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`aibcoin-${VERSION}-osx-unsigned.dmg`, `aibcoin-${VERSION}-osx64.tar.gz`)
+  5. Gitian signatures (in `gitian.sigs.aib/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring
 
-    gpg --import viacoin/contrib/gitian-keys/*.pgp
+    gpg --import aibcoin/contrib/gitian-keys/*.pgp
 
 Verify the signatures
 
     pushd ./gitian-builder
-    ./bin/gverify -v -d ../gitian.sigs.via/ -r ${VERSION}-linux ../viacoin/contrib/gitian-descriptors/gitian-linux.yml
-    ./bin/gverify -v -d ../gitian.sigs.via/ -r ${VERSION}-win-unsigned ../viacoin/contrib/gitian-descriptors/gitian-win.yml
-    ./bin/gverify -v -d ../gitian.sigs.via/ -r ${VERSION}-osx-unsigned ../viacoin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gverify -v -d ../gitian.sigs.aib/ -r ${VERSION}-linux ../aibcoin/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs.aib/ -r ${VERSION}-win-unsigned ../aibcoin/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs.aib/ -r ${VERSION}-osx-unsigned ../aibcoin/contrib/gitian-descriptors/gitian-osx.yml
     popd
 
 ### Next steps:
 
-Commit your signature to gitian.sigs.via:
+Commit your signature to gitian.sigs.aib:
 
-    pushd gitian.sigs.via
+    pushd gitian.sigs.aib
     git add ${VERSION}-linux/${SIGNER}
     git add ${VERSION}-win-unsigned/${SIGNER}
     git add ${VERSION}-osx-unsigned/${SIGNER}
     git commit -a
-    git push  # Assuming you can push to the gitian.sigs.via tree
+    git push  # Assuming you can push to the gitian.sigs.aib tree
     popd
 
 Wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
-- Detached signatures will then be committed to the [viacoin-detached-sigs](https://github.com/viacoin/viacoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+- Detached signatures will then be committed to the [aibcoin-detached-sigs](https://github.com/aibcoin/aibcoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../viacoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.via/ ../viacoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.via/ -r ${VERSION}-osx-signed ../viacoin/contrib/gitian-descriptors/gitian-osx-signer.yml
-    mv build/out/viacoin-osx-signed.dmg ../viacoin-${VERSION}-osx.dmg
+    ./bin/gbuild -i --commit signature=v${VERSION} ../aibcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.aib/ ../aibcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.aib/ -r ${VERSION}-osx-signed ../aibcoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/aibcoin-osx-signed.dmg ../aibcoin-${VERSION}-osx.dmg
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
-    ./bin/gbuild -i --commit signature=v${VERSION} ../viacoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.via/ ../viacoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    ./bin/gverify -v -d ../gitian.sigs.via/ -r ${VERSION}-win-signed ../viacoin/contrib/gitian-descriptors/gitian-win-signer.yml
-    mv build/out/viacoin-*win64-setup.exe ../viacoin-${VERSION}-win64-setup.exe
-    mv build/out/viacoin-*win32-setup.exe ../viacoin-${VERSION}-win32-setup.exe
+    ./bin/gbuild -i --commit signature=v${VERSION} ../aibcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.aib/ ../aibcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.aib/ -r ${VERSION}-win-signed ../aibcoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/aibcoin-*win64-setup.exe ../aibcoin-${VERSION}-win64-setup.exe
+    mv build/out/aibcoin-*win32-setup.exe ../aibcoin-${VERSION}-win32-setup.exe
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
 
-    pushd gitian.sigs.via
+    pushd gitian.sigs.aib
     git add ${VERSION}-osx-signed/${SIGNER}
     git add ${VERSION}-win-signed/${SIGNER}
     git commit -a
-    git push  # Assuming you can push to the gitian.sigs.via tree
+    git push  # Assuming you can push to the gitian.sigs.aib tree
     popd
 
 ### After 3 or more people have gitian-built and their results match:
@@ -205,23 +205,23 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
-viacoin-${VERSION}-aarch64-linux-gnu.tar.gz
-viacoin-${VERSION}-arm-linux-gnueabihf.tar.gz
-viacoin-${VERSION}-i686-pc-linux-gnu.tar.gz
-viacoin-${VERSION}-x86_64-linux-gnu.tar.gz
-viacoin-${VERSION}-osx64.tar.gz
-viacoin-${VERSION}-osx.dmg
-viacoin-${VERSION}.tar.gz
-viacoin-${VERSION}-win32-setup.exe
-viacoin-${VERSION}-win32.zip
-viacoin-${VERSION}-win64-setup.exe
-viacoin-${VERSION}-win64.zip
+aibcoin-${VERSION}-aarch64-linux-gnu.tar.gz
+aibcoin-${VERSION}-arm-linux-gnueabihf.tar.gz
+aibcoin-${VERSION}-i686-pc-linux-gnu.tar.gz
+aibcoin-${VERSION}-x86_64-linux-gnu.tar.gz
+aibcoin-${VERSION}-osx64.tar.gz
+aibcoin-${VERSION}-osx.dmg
+aibcoin-${VERSION}.tar.gz
+aibcoin-${VERSION}-win32-setup.exe
+aibcoin-${VERSION}-win32.zip
+aibcoin-${VERSION}-win64-setup.exe
+aibcoin-${VERSION}-win64.zip
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
-space *do not upload these to the viacoin.org server, nor put them in the torrent*.
+space *do not upload these to the aibcoin.org server, nor put them in the torrent*.
 
 - GPG-sign it, delete the unsigned file:
 ```
@@ -231,23 +231,23 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
-- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the viacoin.org server.
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the aibcoin.org server.
 
-- Update viacoin.org version
+- Update aibcoin.org version
 
 - Announce the release:
 
-  - viacoin-dev mailing list
+  - aibcoin-dev mailing list
 
-  - Viacoin Core announcements list https://groups.google.com/forum/#!forum/viacoin-dev
+  - Aibcoin Core announcements list https://groups.google.com/forum/#!forum/aibcoin-dev
 
-  - blog.viacoin.org blog post
+  - blog.aibcoin.org blog post
 
-  - viacointalk.io forum announcement
+  - aibcointalk.io forum announcement
 
-  - Update title of #viacoin on Freenode IRC
+  - Update title of #aibcoin on Freenode IRC
 
-  - Optionally twitter, reddit /r/Viacoin, ... but this will usually sort out itself
+  - Optionally twitter, reddit /r/Aibcoin, ... but this will usually sort out itself
 
   - Add release notes for the new version to the directory `doc/release-notes` in git master
 

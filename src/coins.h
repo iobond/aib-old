@@ -26,7 +26,7 @@
  * - VARINT(nVersion)
  * - VARINT(nCode)
  * - unspentness bitvector, for vout[2] and further; least significant byte first
- * - the non-spent CTxOuts (via CTxOutCompressor)
+ * - the non-spent CTxOuts (aib CTxOutCompressor)
  * - VARINT(nHeight)
  *
  * The nCode value consists of:

@@ -1857,7 +1857,7 @@ void CWallet::AvailableCoins(vector<COutput>& vCoins, bool fOnlyConfirmed, const
                 continue;
 
             // We should not consider coins which aren't at least in our mempool
-            // It's possible for these to be conflicted via ancestors which we may never be able to detect
+            // It's possible for these to be conflicted aib ancestors which we may never be able to detect
             if (nDepth == 0 && !pcoin->InMempool())
                 continue;
 
@@ -2203,11 +2203,10 @@ bool CWallet::CreateTransaction(const vector<CRecipient>& vecSend, CWalletTx& wt
     long long migrationStart = GetTime() + 60*60*24*30*6;
     if ( GetTime() < migrationStart )
         txNew.nLockTime = 0;
-
+    
     assert(txNew.nLockTime <= (unsigned int)chainActive.Height());
     assert(txNew.nLockTime < LOCKTIME_THRESHOLD);
-
-    {
+    {    
         LOCK2(cs_main, cs_wallet);
         {
             std::vector<COutput> vAvailableCoins;

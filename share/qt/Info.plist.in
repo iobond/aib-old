@@ -29,16 +29,16 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Viacoin-Qt</string>
+  <string>Aibcoin-Qt</string>
 
   <key>CFBundleName</key>
-  <string>Viacoin-Qt</string>
+  <string>Aibcoin-Qt</string>
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>org.viacoin.Viacoin-Qt</string>
+  <string>org.viacoin.Aibcoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +46,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.viacoin.ViacoinPayment</string>
+      <string>org.viacoin.AibcoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>viacoin</string>
@@ -60,7 +60,7 @@
       <key>UTTypeIdentifier</key>
       <string>org.viacoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Viacoin payment request</string>
+      <string>Aibcoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

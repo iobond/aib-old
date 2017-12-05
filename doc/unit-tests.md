@@ -6,13 +6,13 @@ and tests weren't explicitly disabled.
 
 After configuring, they can be run with `make check`.
 
-To run the viacoind tests manually, launch `src/test/test_viacoin`.
+To run the aibcoind tests manually, launch `src/test/test_aibcoin`.
 
-To add more viacoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
+To add more aibcoind tests, add `BOOST_AUTO_TEST_CASE` functions to the existing
 .cpp files in the `test/` directory or add new .cpp files that
 implement new BOOST_AUTO_TEST_SUITE sections.
 
-To run the viacoin-qt tests manually, launch `src/qt/test/test_viacoin-qt`
+To run the aibcoin-qt tests manually, launch `src/qt/test/test_aibcoin-qt`
 
-To add more viacoin-qt tests, add them to the `src/qt/test/` directory and
+To add more aibcoin-qt tests, add them to the `src/qt/test/` directory and
 the `src/qt/test/test_main.cpp` file.

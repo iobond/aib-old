@@ -57,6 +57,11 @@
 #include <boost/thread.hpp>
 #include <openssl/crypto.h>
 
+//TODO: AIB MERGE to enable ZMQ in case bitcoin config is not used
+#ifndef ENABLE_ZMQ
+#define ENABLE_ZMQ 1
+#endif
+
 #if ENABLE_ZMQ
 #include "zmq/zmqnotificationinterface.h"
 #endif
@@ -236,6 +241,7 @@ void Shutdown()
 
 #if ENABLE_ZMQ
     if (pzmqNotificationInterface) {
+        LogPrintf("ZMQ notification interface enabled");
         UnregisterValidationInterface(pzmqNotificationInterface);
         delete pzmqNotificationInterface;
         pzmqNotificationInterface = NULL;
