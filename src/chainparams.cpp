@@ -66,7 +66,8 @@
 #define WTMINT_BLOCK_TESTNET_nTargetTimespan 3600  //1 * 60 * 60 //  : every 1 hours
 #define WTMINT_BLOCK_nTargetSpacing 60 //  : 1 minutes
 
-#define WTMINT_ENFORCE_BIP34_HEIGHT 1200000 // TODO: AIB MERGE RECEHCK change to actual number after release
+#define WTMINT_ENFORCE_BIP34_HEIGHT 2400000 // TODO: AIB MERGE RECEHCK change to actual number after release 
+#define WTMINT_ENFORCE_BIP66_HEIGHT 2400000 // TODO: AIB MERGE RECEHCK change to actual number after release 
 
 //Wallet starting letter
 #define WTMINT_PUBKEY_ADDRESS 23 // Dec.
@@ -166,7 +167,7 @@ public:
         consensus.nMajorityWindow = 20000;
         consensus.BIP34Height = WTMINT_ENFORCE_BIP34_HEIGHT;
         // TODO: AIB MERGE RECHECK replaced with AIB genesis block so recheck
-        consensus.BIP34Hash = uint256S(WTMINT_GENESIS_BLOCK);
+        consensus.BIP34Hash = uint256S(WTMINT_GENESIS_BLOCK);// ("19ff9d27c0adae6e4b9eccc93590642019b22108e5883ade45cfe1bf665aca67");
         //consensus.BIP34Hash = uint256S("0x4e9b54001f9976049830128ec0331515eaabe35a70970d79971da1539a400ba1");
         consensus.powLimit = uint256S(WTMINT_POWLMT_nBits); // ~uint25(0) >> 23
         consensus.nPowTargetTimespan = WTMINT_BLOCK_nTargetTimespan;
@@ -177,7 +178,7 @@ public:
         consensus.nRuleChangeActivationThreshold = 8100; // 75% of nMinerConfirmationWindow
         consensus.nMinerConfirmationWindow = 10800; // 3 days
         consensus.nCLTVStartBlock = 598725;
-        consensus.nBIP66MinStartBlock = 1200000;
+        consensus.nBIP66MinStartBlock = WTMINT_ENFORCE_BIP66_HEIGHT;
         consensus.nAuxPowStartHeight = AuxPow::START_MAINNET;
         consensus.nWitnessStartHeight = 4040000;
 
@@ -192,7 +193,7 @@ public:
 
         // Deployment of SegWit (BIP141, BIP143, and BIP147)
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].bit = 1;
-        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1530230400;//1498694400; // June 28, 2017
+        consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nStartTime = 1498694400; // June 28, 2017
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 1530230400;   // June 28, 2018
 
         // The best chain should have at least this much work.
@@ -230,14 +231,13 @@ public:
         //assert(genesis.hashMerkleRoot == uint256S("0x0317d32e01a2adf6f2ac6f58c7cdaab6c656edc6fdb45986c739290053275200"));
         
 
-        // TODO: AIB MERGE RECHECK related to via node check etc may need to remove
+        // TODO: AIB MERGE RECHECK related to aib node check etc may need to remove
         // Note that of those with the service bits flag, most only support a subset of possible options
         // TODO - LED - Check which aib nodes support service bits and add the 'true' flag
-        vSeeds.push_back(CDNSSeedData("aib.net", "seed.aib.net"));
-        vSeeds.push_back(CDNSSeedData("barbatos.fr", "viaseeder.barbatos.fr"));
-        vSeeds.push_back(CDNSSeedData("zzy.su", "seed.zzy.su"));
-        vSeeds.push_back(CDNSSeedData("bootstap.aib.net", "mainnet.aib.net"));
-
+        vSeeds.push_back(CDNSSeedData("wtmint.com", "seed.wtmint.com"));
+        vSeeds.push_back(CDNSSeedData("iobond.com", "seed.iobond.com"));
+        vSeeds.push_back(CDNSSeedData("aib.one", "seed.aib.one"));
+        
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,WTMINT_PUBKEY_ADDRESS);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,33);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,199);

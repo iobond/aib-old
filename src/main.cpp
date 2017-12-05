@@ -62,7 +62,7 @@ CCriticalSection cs_main;
 
 //TODO: AIB MERGE 
 #define WTMINT_COINBASE_MATURITY 2
-#define WTMINT_LEAGCY_BEST_BLOCK_HEIGHT 1200000
+#define WTMINT_LEAGCY_BEST_BLOCK_HEIGHT 2400000
 BlockMap mapBlockIndex;
 CChain chainActive;
 CBlockIndex *pindexBestHeader = NULL;
@@ -1771,13 +1771,11 @@ bool IsInitialBlockDownload() {
         return true;
     if (chainActive.Tip() == NULL)
         return true;
-    if (chainActive.Tip()->nChainWork < UintToArith256(chainParams.GetConsensus().nMinimumChainWork)){
-       // AIB MERGE RECHECK disable for now to confirm a better nMinmumChainwork	
-       return false;// true;
-    }
-    if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge)){
+    if (chainActive.Tip()->nChainWork < UintToArith256(chainParams.GetConsensus().nMinimumChainWork))
+        // AIB MERGE RECHECK disable for now to confirm a better nMinmumChainwork
+        return false;//true;
+    if (chainActive.Tip()->GetBlockTime() < (GetTime() - nMaxTipAge))
         return true;
-    }
     latchToFalse.store(true, std::memory_order_relaxed);
     return false;
 }
