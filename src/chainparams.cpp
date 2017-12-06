@@ -71,6 +71,8 @@
 
 //Wallet starting letter
 #define WTMINT_PUBKEY_ADDRESS 23 // Dec.
+#define WTMINT_SCRPIT_ADDRESS 5 // Dec.
+#define WTMINT_SECRET_ADDRESS 151 // Dec.
 
 #define DEBUG(title,strout) std::cout<<title<<":    "<< strout<<"\n"
 
@@ -239,8 +241,8 @@ public:
         vSeeds.push_back(CDNSSeedData("aib.one", "seed.aib.one"));
         
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,WTMINT_PUBKEY_ADDRESS);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,33);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,199);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,WTMINT_SCRPIT_ADDRESS);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,WTMINT_SECRET_ADDRESS);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
