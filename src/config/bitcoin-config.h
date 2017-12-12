@@ -311,13 +311,13 @@
 #define PACKAGE_BUGREPORT "https://github.com/iobond/aib/issues"
 
 /* Define to the full name of this package. */
-#define PACKAGE_NAME "Aib Core"
+#define PACKAGE_NAME "AIB"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "Aib Core 0.13.3"
+#define PACKAGE_STRING "AIB 5.13.3"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "Aib"
+#define PACKAGE_TARNAME "AIB"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL "https://aib.org/"
