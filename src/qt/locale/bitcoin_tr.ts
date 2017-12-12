@@ -166,8 +166,8 @@
         <translation>Diskteki bloklar yeniden endeksleniyor...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
-        <translation>Bir Aib adresine Aib yolla</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>Bir AIB adresine AIB yolla</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -190,8 +190,8 @@
         <translation>Mesaj &amp;kontrol et...</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -218,12 +218,12 @@
         <translation>Cüzdanınızın özel anahtarlarını şifrele</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için Aib adresleri ile imzala</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Mesajları adreslerin size ait olduğunu ispatlamak için AIB adresleri ile imzala</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>Belirtilen Aib adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>Belirtilen AIB adresleri ile imzalandıklarından emin olmak için mesajları kontrol et</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -262,8 +262,8 @@
         <translation>&amp;Komut satırı seçenekleri</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aib network</source>
-        <translation><numerusform>Aib şebekesine %n faal bağlantı</numerusform><numerusform>Aib şebekesine %n faal bağlantı</numerusform></translation>
+        <source>%n active connection(s) to AIB network</source>
+        <translation><numerusform>AIB şebekesine %n faal bağlantı</numerusform><numerusform>AIB şebekesine %n faal bağlantı</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -330,8 +330,8 @@
         <translation>Güncel</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Aib command-line options</source>
-        <translation>Olası Aib komut satırı seçeneklerinin listesini görmek için %1 yardım mesajını göster</translation>
+        <source>Show the %1 help message to get a list with possible AIB command-line options</source>
+        <translation>Olası AIB komut satırı seçeneklerinin listesini görmek için %1 yardım mesajını göster</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -392,7 +392,7 @@
     <name>CoinControlDialog</name>
     <message>
         <source>Coin Selection</source>
-        <translation>Aib Seçimi</translation>
+        <translation>AIB Seçimi</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -583,8 +583,8 @@
         <translation>Bu programın ilk kez başlatılmasından dolayı %1 yazılımının verilerini nerede saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Aib block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1, Aib blok zincirinin bir kopyasını indirecek ve saklayacaktır. Bu klasörde en az %2GB veri saklanacak ve bu zamanla artacaktır. Cüzdan da bu klasörde saklanacaktır.</translation>
+        <source>%1 will download and store a copy of the AIB block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1, AIB blok zincirinin bir kopyasını indirecek ve saklayacaktır. Bu klasörde en az %2GB veri saklanacak ve bu zamanla artacaktır. Cüzdan da bu klasörde saklanacaktır.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -725,16 +725,16 @@
         <translation>Teyit edilmemiş para üstünü &amp;harca</translation>
     </message>
     <message>
-        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönlendiricide Aib istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
+        <source>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönlendiricide AIB istemci portlarını otomatik olarak açar. Bu, sadece yönlendiricinizin UPnP desteği bulunuyorsa ve etkinse çalışabilir.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portları &amp;UPnP kullanarak haritala</translation>
     </message>
     <message>
-        <source>Connect to the Aib network through a SOCKS5 proxy.</source>
-        <translation>Aib şebekesine SOCKS5 vekil sunucusu vasıtasıyla bağlan.</translation>
+        <source>Connect to the AIB network through a SOCKS5 proxy.</source>
+        <translation>AIB şebekesine SOCKS5 vekil sunucusu vasıtasıyla bağlan.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -773,8 +773,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Aib network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Aib şebekesine gizli Tor servisleri için ayrı bir SOCKS5 vekil sunucusu vasıtasıyla bağlan.</translation>
+        <source>Connect to the AIB network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>AIB şebekesine gizli Tor servisleri için ayrı bir SOCKS5 vekil sunucusu vasıtasıyla bağlan.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers aib Tor hidden services:</source>
@@ -822,7 +822,7 @@
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Aib gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
+        <translation>AIB gönderildiğinde arayüzde gösterilecek varsayılan alt birimi seçiniz.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -872,7 +872,7 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AIB network after a connection is established, but this process has not completed yet.</source>
         <translation>Görüntülenen veriler zaman aşımına uğramış olabilir. Bağlantı kurulduğunda cüzdanınız otomatik olarak şebeke ile eşleşir ancak bu işlem henüz tamamlanmamıştır.</translation>
     </message>
     <message>
@@ -965,8 +965,8 @@
         <translation>Meblağ</translation>
     </message>
     <message>
-        <source>Enter a Aib address (e.g. %1)</source>
-        <translation>Bir Aib adresi giriniz (mesela %1)</translation>
+        <source>Enter a AIB address (e.g. %1)</source>
+        <translation>Bir AIB adresi giriniz (mesela %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1314,8 +1314,8 @@
         <translation>&amp;Hâlihazırda bulunan bir alım adresini kullan (önerilmez)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aib network.</source>
-        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir mesaj. Not: Bu mesaj ödeme ile birlikte Aib şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AIB network.</source>
+        <translation>Talep açıldığında gösterilecek, isteğinize dayalı, ödeme talebi ile ilişkilendirilecek bir mesaj. Not: Bu mesaj ödeme ile birlikte AIB şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1388,7 +1388,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Aib yolla</translation>
+        <translation>AIB yolla</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1558,8 +1558,8 @@
         <translation>Bu, normal bir ödemedir.</translation>
     </message>
     <message>
-        <source>The Aib address to send the payment to</source>
-        <translation>Ödemenin yollanacağı Aib adresi</translation>
+        <source>The AIB address to send the payment to</source>
+        <translation>Ödemenin yollanacağı AIB adresi</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1602,8 +1602,8 @@
         <translation>Kullanılmış adres listesine eklemek için bu adrese bir etiket girin</translation>
     </message>
     <message>
-        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aib network.</source>
-        <translation>Aib: URI'siyle ilişkili ve bilginiz için muameleyle saklanacak bir mesaj. Not: Bu mesaj Aib şebekesi üzerinden gönderilmeyecektir.</translation>
+        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AIB network.</source>
+        <translation>AIB: URI'siyle ilişkili ve bilginiz için muameleyle saklanacak bir mesaj. Not: Bu mesaj AIB şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1643,8 +1643,8 @@
         <translation>Adreslerinize yollanan aibcoinleri alabileceğiniz ispatlamak için adreslerinizle mesaj/anlaşma imzalayabilirsiniz. Oltalama saldırılarının kimliğinizi imzanızla elde etmeyi deneyebilecekleri için belirsiz ya da rastgele hiçbir şey imzalamamaya dikkat ediniz. Sadece ayrıntılı açıklaması olan ve tümüne katıldığınız ifadeleri imzalayınız.</translation>
     </message>
     <message>
-        <source>The Aib address to sign the message with</source>
-        <translation>Mesajın imzalanmasında kullanılacak Aib adresi</translation>
+        <source>The AIB address to sign the message with</source>
+        <translation>Mesajın imzalanmasında kullanılacak AIB adresi</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1675,8 +1675,8 @@
         <translation>Güncel imzayı sistem panosuna kopyala</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aib address</source>
-        <translation>Bu Aib adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
+        <source>Sign the message to prove you own this AIB address</source>
+        <translation>Bu AIB adresinin sizin olduğunu ispatlamak için mesajı imzalayın</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1699,12 +1699,12 @@
         <translation>Alıcının adresini, mesajı (satır sonları, boşluklar, sekmeler vs. karakterleri tam olarak kopyaladığınızdan emin olunuz) ve imzayı aşağıda giriniz. Bir ortadaki adam saldırısı tarafından kandırılmaya mâni olmak için imzadan, imzalı mesajın içeriğini aşan bir anlam çıkarmamaya dikkat ediniz. Bunun sadece imzalayan tarafın adres ile alım yapabildiğini ispatladığını ve herhangi bir muamelenin gönderi tarafını kanıtlayamayacağını unutmayınız!</translation>
     </message>
     <message>
-        <source>The Aib address the message was signed with</source>
-        <translation>Mesajın imzalanmasında kullanılan Aib adresi</translation>
+        <source>The AIB address the message was signed with</source>
+        <translation>Mesajın imzalanmasında kullanılan AIB adresi</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aib address</source>
-        <translation>Belirtilen Aib adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
+        <source>Verify the message to ensure it was signed with the specified AIB address</source>
+        <translation>Belirtilen AIB adresi ile imzalandığını doğrulamak için mesajı kontrol et</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1828,8 +1828,8 @@
         <translation>Dışarıdan gelen bağlantıları kabul et (varsayılan: -proxy veya -connect yoksa 1)</translation>
     </message>
     <message>
-        <source>Aib Core</source>
-        <translation>Aib Çekirdeği</translation>
+        <source>AIB</source>
+        <translation>AIB Çekirdeği</translation>
     </message>
     <message>
         <source>The %s developers</source>

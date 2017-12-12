@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -714,8 +714,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Aib Core</source>
-        <translation>Aib மையம்</translation>
+        <source>AIB</source>
+        <translation>AIB மையம்</translation>
     </message>
     <message>
         <source>(default: %u)</source>

@@ -62,12 +62,12 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
-        <source>These are your Aib addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu Aib aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
+        <source>These are your AIB addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu AIB aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
-        <source>These are your Aib addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Need on sinu Aib aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+        <source>These are your AIB addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Need on sinu AIB aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -286,7 +286,7 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
+        <source>Send coins to a AIB address</source>
         <translation>Saada münte Aibcoini aadressile</translation>
     </message>
     <message>
@@ -310,8 +310,8 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -338,11 +338,11 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
         <translation>Omandi tõestamiseks allkirjasta sõnumid oma Aibcoini aadressiga</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
         <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Aibcoini aadressiga</translation>
     </message>
     <message>
@@ -374,7 +374,7 @@
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aib network</source>
+        <source>%n active connection(s) to AIB network</source>
         <translation><numerusform>%n aktiivne ühendus Aibcoini võrku</numerusform><numerusform>%n aktiivset ühendust Aibcoini võrku</numerusform></translation>
     </message>
     <message>
@@ -710,8 +710,8 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Aib address.</source>
-        <translation>Sisestatud aadress "%1" ei ole korrektne Aib aadress.</translation>
+        <source>The entered address "%1" is not a valid AIB address.</source>
+        <translation>Sisestatud aadress "%1" ei ole korrektne AIB aadress.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -825,7 +825,7 @@
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Aibcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
@@ -908,7 +908,7 @@
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AIB network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1375,8 +1375,8 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Aib address</source>
-        <translation>Hoiatus: Ebakorrektne Aib aadress</translation>
+        <source>Warning: Invalid AIB address</source>
+        <translation>Hoiatus: Ebakorrektne AIB aadress</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1455,8 +1455,8 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
-        <source>The Aib address to sign the message with</source>
-        <translation>Aib aadress millega sõnum allkirjastada</translation>
+        <source>The AIB address to sign the message with</source>
+        <translation>AIB aadress millega sõnum allkirjastada</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1487,7 +1487,7 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aib address</source>
+        <source>Sign the message to prove you own this AIB address</source>
         <translation>Allkirjasta sõnum Aibcoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
@@ -1507,12 +1507,12 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
-        <source>The Aib address the message was signed with</source>
-        <translation>Aib aadress millega sõnum on allkirjastatud</translation>
+        <source>The AIB address the message was signed with</source>
+        <translation>AIB aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aib address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Aib aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified AIB address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud AIB aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1800,7 +1800,7 @@
         <translation>Luba välisühendusi (vaikeväärtus: 1 kui puudub -proxy või -connect)</translation>
     </message>
     <message>
-        <source>Aib Core</source>
+        <source>AIB</source>
         <translation>Aibcoini tuumik</translation>
     </message>
     <message>

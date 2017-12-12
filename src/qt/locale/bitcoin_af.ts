@@ -158,8 +158,8 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
-        <translation>Stuur munte na 'n Aib adres</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>Stuur munte na 'n AIB adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -170,8 +170,8 @@
         <translation>Verander die wagwoord wat ek vir kodifikasie van my beursie gebruik</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u Aib adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u AIB adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Aib adresse</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde AIB adresse</translation>
     </message>
     <message>
         <source>&amp;Help</source>
@@ -710,8 +710,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Aib Core</source>
-        <translation>Aib Kern</translation>
+        <source>AIB</source>
+        <translation>AIB Kern</translation>
     </message>
     <message>
         <source>Information</source>

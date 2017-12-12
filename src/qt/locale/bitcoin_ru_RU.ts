@@ -58,8 +58,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Aib</source>
-        <translation>Aib Core</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -218,8 +218,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Aib Core</source>
-        <translation>Aib Core</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>

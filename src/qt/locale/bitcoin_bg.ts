@@ -166,8 +166,8 @@
         <translation>Повторно индексиране на блоковете на диска...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
-        <translation>Изпращане към Aib адрес</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>Изпращане към AIB адрес</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -191,7 +191,7 @@
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>Aib</translation>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -218,12 +218,12 @@
         <translation>Шифроване на личните ключове,които принадлежат на портфейла Ви.</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>Пишете съобщения със своя Aib адрес за да докажете,че е ваш.</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Пишете съобщения със своя AIB адрес за да докажете,че е ваш.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените Aib адреси.</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>Потвърждаване на съобщения  за да се знае,че са написани с дадените AIB адреси.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -243,7 +243,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and aib: URIs)</source>
-        <translation>Изискване на плащания(генерира QR кодове и Aib: URIs)</translation>
+        <translation>Изискване на плащания(генерира QR кодове и AIB: URIs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -255,15 +255,15 @@
     </message>
     <message>
         <source>Open a aib: URI or payment request</source>
-        <translation>Отворете Aib: URI  или заявка за плащане</translation>
+        <translation>Отворете AIB: URI  или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Налични команди</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aib network</source>
-        <translation><numerusform>%n активна връзка към Aib мрежата</numerusform><numerusform>%n активни връзки към Aib мрежата</numerusform></translation>
+        <source>%n active connection(s) to AIB network</source>
+        <translation><numerusform>%n активна връзка към AIB мрежата</numerusform><numerusform>%n активни връзки към AIB мрежата</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -330,8 +330,8 @@
         <translation>Синхронизиран</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Aib command-line options</source>
-        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни Aib команди</translation>
+        <source>Show the %1 help message to get a list with possible AIB command-line options</source>
+        <translation>Покажи %1 помощно съобщение за да получиш лист с възможни AIB команди</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -681,16 +681,16 @@
         <translation>&amp;Похарчете непотвърденото ресто</translation>
     </message>
     <message>
-        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваряне на входящия Aib порт. Работи само с рутери поддържащи UPnP.</translation>
+        <source>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваряне на входящия AIB порт. Работи само с рутери поддържащи UPnP.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Отваряне на входящия порт чрез &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Aib network through a SOCKS5 proxy.</source>
-        <translation>Свързване с Aib мрежата чрез SOCKS5  прокси.</translation>
+        <source>Connect to the AIB network through a SOCKS5 proxy.</source>
+        <translation>Свързване с AIB мрежата чрез SOCKS5  прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -784,8 +784,8 @@
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
-        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на Aib, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AIB network after a connection is established, but this process has not completed yet.</source>
+        <translation>Текущата информация на екрана може да не е актуална. Вашият портфейл ще се синхронизира автоматично с мрежата на AIB, щом поне една връзката с нея се установи; този процес все още не е приключил.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -853,8 +853,8 @@
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a Aib address (e.g. %1)</source>
-        <translation>Въведете Aib адрес (например: %1)</translation>
+        <source>Enter a AIB address (e.g. %1)</source>
+        <translation>Въведете AIB адрес (например: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1367,7 +1367,7 @@
         <translation>Копиране на текущия подпис</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aib address</source>
+        <source>Sign the message to prove you own this AIB address</source>
         <translation>Подпишете съобщение като доказателство, че притежавате определен адрес</translation>
     </message>
     <message>
@@ -1383,8 +1383,8 @@
         <translation>&amp;Провери</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aib address</source>
-        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен Aib адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified AIB address</source>
+        <translation>Проверете съобщение, за да сте сигурни че е подписано с определен AIB адрес</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1457,7 +1457,7 @@
     </message>
     <message>
         <source>Bitcoin Core</source>
-        <translation>Aib ядро</translation>
+        <translation>AIB ядро</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>

@@ -142,8 +142,8 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
-        <translation>Trimite monedele către o adresă Aib</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>Trimite monedele către o adresă AIB</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verifică mesajul...</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Criptează cheile private care aparțin portofelului tău.</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>Semnează mesajele cu adresa ta de Aib pentru a face dovada că îți aparțin.</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Semnează mesajele cu adresa ta de AIB pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Aib specificată.</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de AIB specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -746,8 +746,8 @@
 <context>
     <name>bitcoin-core</name>
     <message>
-        <source>Aib Core</source>
-        <translation>Aib Core</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Information</source>

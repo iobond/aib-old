@@ -114,7 +114,7 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
+        <source>Send coins to a AIB address</source>
         <translation>Пошаљите новац на aib адресу</translation>
     </message>
     <message>

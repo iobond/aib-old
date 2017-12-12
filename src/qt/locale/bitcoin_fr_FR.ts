@@ -166,8 +166,8 @@
         <translation>Réindexer les blocs sur le disque...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
-        <translation>Envoyer des pièces à une adresse Aib</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>Envoyer des pièces à une adresse AIB</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -190,8 +190,8 @@
         <translation>&amp;Vérification du message</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -218,8 +218,8 @@
         <translation>Crypter les clé privées qui appartiennent votre portefeuille</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>Signer vos messages avec vos adresses Aib pour prouver que vous les détenez</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Signer vos messages avec vos adresses AIB pour prouver que vous les détenez</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -254,8 +254,8 @@
         <translation>&amp;Options de ligne de commande</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aib network</source>
-        <translation><numerusform>%n connexion active au réseau Aib</numerusform><numerusform>%n connexions actives au réseau Aib</numerusform></translation>
+        <source>%n active connection(s) to AIB network</source>
+        <translation><numerusform>%n connexion active au réseau AIB</numerusform><numerusform>%n connexions actives au réseau AIB</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -617,8 +617,8 @@
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client Aib automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client AIB automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -781,8 +781,8 @@
         <translation>Montant</translation>
     </message>
     <message>
-        <source>Enter a Aib address (e.g. %1)</source>
-        <translation>Entrer une adresse Aib (e.g. %1)</translation>
+        <source>Enter a AIB address (e.g. %1)</source>
+        <translation>Entrer une adresse AIB (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1380,8 +1380,8 @@
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
-        <source>Aib Core</source>
-        <translation>Aib Core</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

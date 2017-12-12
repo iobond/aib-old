@@ -146,8 +146,8 @@
         <translation>Пераіндэксацыя блокаў на дыску...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
-        <translation>Даслаць манеты на Aib-адрас</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>Даслаць манеты на AIB-адрас</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -170,8 +170,8 @@
         <translation>Праверыць паведамленне...</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -198,12 +198,12 @@
         <translation>Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>Падпісаць паведамленне з дапамогай Aib-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Падпісаць паведамленне з дапамогай AIB-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>Спраўдзіць паведамленне з дапамогай Aib-адраса каб даказаць, што яно належыць вам</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>Спраўдзіць паведамленне з дапамогай AIB-адраса каб даказаць, што яно належыць вам</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -219,7 +219,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and aib: URIs)</source>
-        <translation>Запатрабаваць плацёж (генеруецца QR-код для Aib URI)</translation>
+        <translation>Запатрабаваць плацёж (генеруецца QR-код для AIB URI)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -231,15 +231,15 @@
     </message>
     <message>
         <source>Open a aib: URI or payment request</source>
-        <translation>Адкрыць Aib: URI ці запыт плацяжу</translation>
+        <translation>Адкрыць AIB: URI ці запыт плацяжу</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Опцыі каманднага радка</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aib network</source>
-        <translation><numerusform>%n актыўнае злучэнне з сецівам Aib</numerusform><numerusform>%n актыўных злучэнняў з сецівам Aib</numerusform><numerusform>%n актыўных злучэнняў з сецівам Aib</numerusform><numerusform>%n актыўных злучэнняў з сецівам Aib</numerusform></translation>
+        <source>%n active connection(s) to AIB network</source>
+        <translation><numerusform>%n актыўнае злучэнне з сецівам AIB</numerusform><numerusform>%n актыўных злучэнняў з сецівам AIB</numerusform><numerusform>%n актыўных злучэнняў з сецівам AIB</numerusform><numerusform>%n актыўных злучэнняў з сецівам AIB</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -736,8 +736,8 @@
         <translation>Запусціць у фоне як дэман і прымаць каманды</translation>
     </message>
     <message>
-        <source>Aib Core</source>
-        <translation>Aib Core</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>

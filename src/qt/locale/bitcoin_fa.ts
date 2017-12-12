@@ -254,8 +254,8 @@
         <translation>بازنشانی بلوک‌ها روی دیسک...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
-        <translation>ارسال وجه به نشانی Aib</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>ارسال وجه به نشانی AIB</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -278,8 +278,8 @@
         <translation>با&amp;زبینی پیام...</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -306,12 +306,12 @@
         <translation>رمزنگاری کلیدهای خصوصی متعلق به کیف پول شما</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی Aib خود امضا کنید</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی AIB خود امضا کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Aib مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی AIB مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -350,8 +350,8 @@
         <translation>گزینه‌های خط‌فرمان</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aib network</source>
-        <translation><numerusform>%n ارتباط فعال با شبکهٔ Aib</numerusform></translation>
+        <source>%n active connection(s) to AIB network</source>
+        <translation><numerusform>%n ارتباط فعال با شبکهٔ AIB</numerusform></translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -662,8 +662,8 @@
         <translation>ویرایش آدرس قرستنده</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Aib address.</source>
-        <translation>نشانی وارد شده "%1" یک نشانی معتبر Aib نیست.</translation>
+        <source>The entered address "%1" is not a valid AIB address.</source>
+        <translation>نشانی وارد شده "%1" یک نشانی معتبر AIB نیست.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -833,8 +833,8 @@
         <translation>استخراج</translation>
     </message>
     <message>
-        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>باز کردن خودکار درگاه شبکهٔ Aib روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
+        <source>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>باز کردن خودکار درگاه شبکهٔ AIB روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -932,8 +932,8 @@
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ Aib همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AIB network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ AIB همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -997,8 +997,8 @@
         <translation>مبلغ</translation>
     </message>
     <message>
-        <source>Enter a Aib address (e.g. %1)</source>
-        <translation>یک آدرس Aib وارد کنید (مثلاً %1)</translation>
+        <source>Enter a AIB address (e.g. %1)</source>
+        <translation>یک آدرس AIB وارد کنید (مثلاً %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1422,8 +1422,8 @@
         <translation>این یک پرداخت عادی است</translation>
     </message>
     <message>
-        <source>The Aib address to send the payment to</source>
-        <translation>نشانی Aib برای ارسال پرداخت به آن</translation>
+        <source>The AIB address to send the payment to</source>
+        <translation>نشانی AIB برای ارسال پرداخت به آن</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1475,8 +1475,8 @@
         <translation>ا&amp;مضای پیام</translation>
     </message>
     <message>
-        <source>The Aib address to sign the message with</source>
-        <translation>نشانی Aib برای امضاء پیغام با آن</translation>
+        <source>The AIB address to sign the message with</source>
+        <translation>نشانی AIB برای امضاء پیغام با آن</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1507,7 +1507,7 @@
         <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aib address</source>
+        <source>Sign the message to prove you own this AIB address</source>
         <translation>برای اثبات تعلق این نشانی به شما، پیام را امضا کنید</translation>
     </message>
     <message>
@@ -1527,12 +1527,12 @@
         <translation>&amp;شناسایی پیام</translation>
     </message>
     <message>
-        <source>The Aib address the message was signed with</source>
-        <translation>نشانی Aib که پیغام با آن امضاء شده</translation>
+        <source>The AIB address the message was signed with</source>
+        <translation>نشانی AIB که پیغام با آن امضاء شده</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aib address</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی Aib مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify the message to ensure it was signed with the specified AIB address</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی AIB مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1644,8 +1644,8 @@
         <translation>پذیرش اتصالات از بیرون (پیش فرض:1 بدون پراکسی یا اتصال)</translation>
     </message>
     <message>
-        <source>Aib Core</source>
-        <translation> هسته Aib </translation>
+        <source>AIB</source>
+        <translation> هسته AIB </translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

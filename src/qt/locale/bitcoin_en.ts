@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your Aib addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your AIB addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your Aib addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your AIB addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -410,8 +410,8 @@
     </message>
     <message>
         <location line="-463"/>
-        <source>Send coins to a Aib address</source>
-        <translation>Send coins to a Aib address</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>Send coins to a AIB address</translation>
     </message>
     <message>
         <location line="+67"/>
@@ -440,8 +440,8 @@
     </message>
     <message>
         <location line="+487"/>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <location line="-699"/>
@@ -475,13 +475,13 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>Sign messages with your Aib addresses to prove you own them</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Sign messages with your AIB addresses to prove you own them</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>Verify messages to ensure they were signed with specified Aib addresses</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>Verify messages to ensure they were signed with specified AIB addresses</translation>
     </message>
     <message>
         <location line="+58"/>
@@ -530,10 +530,10 @@
     </message>
     <message numerus="yes">
         <location line="+347"/>
-        <source>%n active connection(s) to Aib network</source>
+        <source>%n active connection(s) to AIB network</source>
         <translation>
-            <numerusform>%n active connection to Aib network</numerusform>
-            <numerusform>%n active connections to Aib network</numerusform>
+            <numerusform>%n active connection to AIB network</numerusform>
+            <numerusform>%n active connections to AIB network</numerusform>
         </translation>
     </message>
     <message>
@@ -634,7 +634,7 @@
     </message>
     <message>
         <location line="-394"/>
-        <source>Show the %1 help message to get a list with possible Aib command-line options</source>
+        <source>Show the %1 help message to get a list with possible AIB command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1028,7 +1028,7 @@
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid Aib address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid AIB address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1163,7 +1163,7 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>%1 will download and store a copy of the Aib block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>%1 will download and store a copy of the AIB block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1352,8 +1352,8 @@
     </message>
     <message>
         <location line="+30"/>
-        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+        <source>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1362,7 +1362,7 @@
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the Aib network through a SOCKS5 proxy.</source>
+        <source>Connect to the AIB network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1417,7 +1417,7 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>Connect to the Aib network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the AIB network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1542,8 +1542,8 @@
     <message>
         <location line="+62"/>
         <location line="+386"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
-        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AIB network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the AIB network after a connection is established, but this process has not completed yet.</translation>
     </message>
     <message>
         <location line="-139"/>
@@ -1662,7 +1662,7 @@
     </message>
     <message>
         <location line="+8"/>
-        <source>URI cannot be parsed! This can be caused by an invalid Aib address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid AIB address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1779,7 +1779,7 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+135"/>
-        <source>Enter a Aib address (e.g. %1)</source>
+        <source>Enter a AIB address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2272,7 +2272,7 @@
     <message>
         <location line="+14"/>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aib network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AIB network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2777,7 +2777,7 @@
     </message>
     <message>
         <location line="+106"/>
-        <source>Warning: Invalid Aib address</source>
+        <source>Warning: Invalid AIB address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2822,7 +2822,7 @@
     </message>
     <message>
         <location line="+39"/>
-        <source>The Aib address to send the payment to</source>
+        <source>The AIB address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2879,7 +2879,7 @@
     </message>
     <message>
         <location line="+47"/>
-        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aib network.</source>
+        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AIB network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2941,7 +2941,7 @@
     </message>
     <message>
         <location line="+18"/>
-        <source>The Aib address to sign the message with</source>
+        <source>The AIB address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2983,8 +2983,8 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Aib address</source>
-        <translation>Sign the message to prove you own this Aib address</translation>
+        <source>Sign the message to prove you own this AIB address</source>
+        <translation>Sign the message to prove you own this AIB address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3014,13 +3014,13 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>The Aib address the message was signed with</source>
+        <source>The AIB address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified Aib address</source>
-        <translation>Verify the message to ensure it was signed with the specified Aib address</translation>
+        <source>Verify the message to ensure it was signed with the specified AIB address</source>
+        <translation>Verify the message to ensure it was signed with the specified AIB address</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3860,8 +3860,8 @@
     </message>
     <message>
         <location line="-211"/>
-        <source>Aib Core</source>
-        <translation type="unfinished">Aib Core</translation>
+        <source>AIB</source>
+        <translation type="unfinished">AIB</translation>
     </message>
     <message>
         <location line="+1"/>

@@ -170,7 +170,7 @@
         <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
+        <source>Send coins to a AIB address</source>
         <translation>Poslať aibcoins na adresu</translation>
     </message>
     <message>
@@ -194,8 +194,8 @@
         <translation>O&amp;veriť správu...</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -222,12 +222,12 @@
         <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>Podpísať správu s vašou adresou Aib aby ste preukázali že ju vlastníte</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Podpísať správu s vašou adresou AIB aby ste preukázali že ju vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>Overiť či správa bola podpísaná uvedenou Aib adresou</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>Overiť či správa bola podpísaná uvedenou AIB adresou</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -266,8 +266,8 @@
         <translation>Možnosti príkazového riadku</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aib network</source>
-        <translation><numerusform>%n aktívne pripojenie do siete Aib</numerusform><numerusform>%n aktívne pripojenia do siete Aib</numerusform><numerusform>%n aktívnych pripojení do siete Aib</numerusform></translation>
+        <source>%n active connection(s) to AIB network</source>
+        <translation><numerusform>%n aktívne pripojenie do siete AIB</numerusform><numerusform>%n aktívne pripojenia do siete AIB</numerusform><numerusform>%n aktívnych pripojení do siete AIB</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -334,7 +334,7 @@
         <translation>Aktualizovaný</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Aib command-line options</source>
+        <source>Show the %1 help message to get a list with possible AIB command-line options</source>
         <translation>Ukáž %1 zoznam možných nastavení Aibcoinu pomocou príkazového riadku</translation>
     </message>
     <message>
@@ -591,8 +591,8 @@
         <translation>Keďže toto je prvé spustenie programu, môžete si vybrať, kam %1 bude ukladať vaše údaje.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Aib block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 stiahne a uloží kópiu Aib block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
+        <source>%1 will download and store a copy of the AIB block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 stiahne a uloží kópiu AIB block chain. Minimálne %2GB dát bude uložených v tejto zložke, a bude sa zväčšovať postupom času. Peňaženka bude taktiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -733,16 +733,16 @@
         <translation>Minúť nepotvrdený výdavok</translation>
     </message>
     <message>
-        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre Aib na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <source>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvorit port pre AIB na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapovať port pomocou &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Aib network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť do siete Aib cez proxy server SOCKS5.</translation>
+        <source>Connect to the AIB network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť do siete AIB cez proxy server SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -781,7 +781,7 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Aib network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <source>Connect to the AIB network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Pripojiť k Aibcoinovej sieti cez separované SOCKS5 proxy pre skrytú službu Tor.</translation>
     </message>
     <message>
@@ -880,8 +880,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou Aib po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AIB network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť neaktuálne. Vaša peňaženka sa automaticky synchronizuje so sieťou AIB po nadviazaní spojenia, ale tento proces ešte nie je ukončený.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -973,7 +973,7 @@
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a Aib address (e.g. %1)</source>
+        <source>Enter a AIB address (e.g. %1)</source>
         <translation>Zadajte aib adresu (napr. %1)</translation>
     </message>
     <message>
@@ -1323,8 +1323,8 @@
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aib network.</source>
-        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť Aib.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AIB network.</source>
+        <translation>Pridať voliteľnú správu k výzve na zaplatenie, ktorá sa zobrazí keď bude výzva otvorená. Poznámka: Správa nebude poslaná s platbou cez sieť AIB.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1579,7 +1579,7 @@
         <translation>Toto je normálna platba.</translation>
     </message>
     <message>
-        <source>The Aib address to send the payment to</source>
+        <source>The AIB address to send the payment to</source>
         <translation>Zvoľte adresu kam poslať platbu</translation>
     </message>
     <message>
@@ -1623,8 +1623,8 @@
         <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
-        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aib network.</source>
-        <translation>Správa ktorá bola pripojená k aib: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť Aib.</translation>
+        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AIB network.</source>
+        <translation>Správa ktorá bola pripojená k aib: URI a ktorá bude uložená s transakcou pre Vaše potreby. Poznámka: Táto správa nebude poslaná cez sieť AIB.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1660,8 +1660,8 @@
         <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
-        <source>The Aib address to sign the message with</source>
-        <translation>Aib adresa pre podpísanie správy s</translation>
+        <source>The AIB address to sign the message with</source>
+        <translation>AIB adresa pre podpísanie správy s</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1692,7 +1692,7 @@
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aib address</source>
+        <source>Sign the message to prove you own this AIB address</source>
         <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -1712,12 +1712,12 @@
         <translation>O&amp;veriť správu...</translation>
     </message>
     <message>
-        <source>The Aib address the message was signed with</source>
-        <translation>Adresa Aib, ktorou bola podpísaná správa</translation>
+        <source>The AIB address the message was signed with</source>
+        <translation>Adresa AIB, ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aib address</source>
-        <translation>Overím správy sa uistiť že bola podpísaná označenou Aib adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified AIB address</source>
+        <translation>Overím správy sa uistiť že bola podpísaná označenou AIB adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1833,8 +1833,8 @@
         <translation>Prijať spojenia zvonku (predvolené: 1 ak žiadne -proxy alebo -connect)</translation>
     </message>
     <message>
-        <source>Aib Core</source>
-        <translation>Jadro Aib</translation>
+        <source>AIB</source>
+        <translation>Jadro AIB</translation>
     </message>
     <message>
         <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>

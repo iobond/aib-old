@@ -158,7 +158,7 @@
         <translation>إعادة الفهرسة الكتل على القرص ...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
+        <source>Send coins to a AIB address</source>
         <translation>ارسل عملات الى عنوان بيتكوين</translation>
     </message>
     <message>
@@ -182,8 +182,8 @@
         <translation>&amp;التحقق من الرسالة...</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -210,12 +210,12 @@
         <translation>تشفير المفتاح الخاص بمحفظتك</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>وقَع الرسائل بواسطة ال: Aib الخاص بك لإثبات امتلاكك لهم</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>وقَع الرسائل بواسطة ال: AIB الخاص بك لإثبات امتلاكك لهم</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل Aib محدَدة</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>تحقق من الرسائل للتأكد من أنَها وُقعت برسائل AIB محدَدة</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -247,7 +247,7 @@
     </message>
     <message>
         <source>Open a coin: URI or payment request</source>
-        <translation>فتح URI : Aib أو طلب دفع</translation>
+        <translation>فتح URI : AIB أو طلب دفع</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1014,7 +1014,7 @@
         <translation>هذا دفع اعتيادي</translation>
     </message>
     <message>
-        <source>The Aib address to send the payment to</source>
+        <source>The AIB address to send the payment to</source>
         <translation>عنوان الAib المرسل اليه الدفع</translation>
     </message>
     <message>
@@ -1083,7 +1083,7 @@
         <translation>التوقيع</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aib address</source>
+        <source>Sign the message to prove you own this AIB address</source>
         <translation>وقع الرسالة لتثبت انك تمتلك عنوان الAib هذا</translation>
     </message>
     <message>
@@ -1156,7 +1156,7 @@
         <translation>قبول الاتصالات من خارج</translation>
     </message>
     <message>
-        <source>Aib Core</source>
+        <source>AIB</source>
         <translation>جوهر البيت كوين</translation>
     </message>
     <message>

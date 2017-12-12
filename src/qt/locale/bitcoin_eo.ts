@@ -146,8 +146,8 @@
         <translation>Reindeksado de blokoj sur disko...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
-        <translation>Sendi monon al Aib-adreso</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>Sendi monon al AIB-adreso</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -170,8 +170,8 @@
         <translation>&amp;Kontroli mesaĝon...</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -198,12 +198,12 @@
         <translation>Ĉifri la privatajn ŝlosilojn de aib monujo</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>Subskribi mesaĝojn per aib Aib-adresoj por pravigi, ke vi estas la posedanto</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Subskribi mesaĝojn per aib AIB-adresoj por pravigi, ke vi estas la posedanto</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj Aib-adresoj</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>Kontroli mesaĝojn por kontroli ĉu ili estas subskribitaj per specifaj AIB-adresoj</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -577,8 +577,8 @@
         <translation>Fakulo</translation>
     </message>
     <message>
-        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Aŭtomate malfermi la kursilan pordon por Aib. Tio funkcias nur se aib kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
+        <source>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aŭtomate malfermi la kursilan pordon por AIB. Tio funkcias nur se aib kursilo havas la UPnP-funkcion, kaj se tiu ĉi estas ŝaltita.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -672,8 +672,8 @@
         <translation>Formularo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
-        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Aib monujo aŭtomate sinkoniĝas kun la aib reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AIB network after a connection is established, but this process has not completed yet.</source>
+        <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. AIB monujo aŭtomate sinkoniĝas kun la aib reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -956,7 +956,7 @@
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sendi Aib</translation>
+        <translation>Sendi AIB</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
@@ -1139,8 +1139,8 @@
         <translation>Kopii la aktualan subskribon al la tondejo</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aib address</source>
-        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu Aib-adreso</translation>
+        <source>Sign the message to prove you own this AIB address</source>
+        <translation>Subskribi la mesaĝon por pravigi, ke vi estas la posedanto de tiu AIB-adreso</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1159,8 +1159,8 @@
         <translation>&amp;Kontroli Mesaĝon</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aib address</source>
-        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa Aib-adreso</translation>
+        <source>Verify the message to ensure it was signed with the specified AIB address</source>
+        <translation>Kontroli la mesaĝon por pravigi, ke ĝi ja estas subskribita per la specifa AIB-adreso</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1244,8 +1244,8 @@
         <translation>Akcepti konektojn el ekstere (defaŭlte: 1 se ne estas -proxy nek -connect)</translation>
     </message>
     <message>
-        <source>Aib Core</source>
-        <translation>Kerno de Aib</translation>
+        <source>AIB</source>
+        <translation>Kerno de AIB</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

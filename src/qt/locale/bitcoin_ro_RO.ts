@@ -154,8 +154,8 @@
         <translation>Se reindexează blocurile pe disc...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
-        <translation>Trimite monede către o adresă Aib</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>Trimite monede către o adresă AIB</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -178,8 +178,8 @@
         <translation>&amp;Verifică mesaj...</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -206,12 +206,12 @@
         <translation>Criptează cheile private ale portofelului dvs.</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>Semnaţi mesaje cu adresa dvs. Aib pentru a dovedi că vă aparţin</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Semnaţi mesaje cu adresa dvs. AIB pentru a dovedi că vă aparţin</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa Aib specificată</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>Verificaţi mesaje pentru a vă asigura că au fost semnate cu adresa AIB specificată</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -250,8 +250,8 @@
         <translation>Opţiuni linie de &amp;comandă</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aib network</source>
-        <translation><numerusform>%n conexiune activă către reţeaua Aib</numerusform><numerusform>%n conexiuni active către reţeaua Aib</numerusform><numerusform>%n de conexiuni active către reţeaua Aib</numerusform></translation>
+        <source>%n active connection(s) to AIB network</source>
+        <translation><numerusform>%n conexiune activă către reţeaua AIB</numerusform><numerusform>%n conexiuni active către reţeaua AIB</numerusform><numerusform>%n de conexiuni active către reţeaua AIB</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -673,16 +673,16 @@
         <translation>Cheltuire rest neconfirmat</translation>
     </message>
     <message>
-        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat în router portul aferent clientului Aib. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
+        <source>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat în router portul aferent clientului AIB. Funcţionează doar dacă routerul duportă UPnP şi e activat.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Mapare port folosind &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the Aib network through a SOCKS5 proxy.</source>
-        <translation>Conectare la reţeaua Aib printr-un proxy SOCKS.</translation>
+        <source>Connect to the AIB network through a SOCKS5 proxy.</source>
+        <translation>Conectare la reţeaua AIB printr-un proxy SOCKS.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -792,8 +792,8 @@
         <translation>Form</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua Aib după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AIB network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informaţiile afişate pot fi neactualizate. Portofelul dvs. se sincronizează automat cu reţeaua AIB după ce o conexiune este stabilită, dar acest proces nu a fost finalizat încă.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -885,8 +885,8 @@
         <translation>Cantitate</translation>
     </message>
     <message>
-        <source>Enter a Aib address (e.g. %1)</source>
-        <translation>Introduceţi o adresă Aib (de exemplu %1)</translation>
+        <source>Enter a AIB address (e.g. %1)</source>
+        <translation>Introduceţi o adresă AIB (de exemplu %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1178,8 +1178,8 @@
         <translation>R&amp;efoloseşte o adresă de primire (nu este recomandat)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aib network.</source>
-        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua Aib.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AIB network.</source>
+        <translation>Un mesaj opţional de ataşat la cererea de plată, care va fi afişat cînd cererea este deschisă. Notă: Acest mesaj nu va fi trimis cu plata către reţeaua AIB.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1402,8 +1402,8 @@
         <translation>Aceasta este o tranzacţie normală.</translation>
     </message>
     <message>
-        <source>The Aib address to send the payment to</source>
-        <translation>Adresa Aib către care se face plata</translation>
+        <source>The AIB address to send the payment to</source>
+        <translation>Adresa AIB către care se face plata</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1430,8 +1430,8 @@
         <translation>Introduceţi eticheta pentru ca această adresa să fie introdusă în lista de adrese folosite</translation>
     </message>
     <message>
-        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aib network.</source>
-        <translation>un mesaj a fost ataşat la aib: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua Aib.</translation>
+        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AIB network.</source>
+        <translation>un mesaj a fost ataşat la aib: URI care va fi stocat cu tranzacţia pentru referinţa dvs. Notă: Acest mesaj nu va fi trimis către reţeaua AIB.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1467,8 +1467,8 @@
         <translation>&amp;Semnează mesaj</translation>
     </message>
     <message>
-        <source>The Aib address to sign the message with</source>
-        <translation>Adresa Aib cu care semnaţi mesajul</translation>
+        <source>The AIB address to sign the message with</source>
+        <translation>Adresa AIB cu care semnaţi mesajul</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1499,8 +1499,8 @@
         <translation>Copiază semnatura curentă în clipboard-ul sistemului</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aib address</source>
-        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă Aib</translation>
+        <source>Sign the message to prove you own this AIB address</source>
+        <translation>Semnează mesajul pentru a dovedi ca deţineţi acestă adresă AIB</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1519,12 +1519,12 @@
         <translation>&amp;Verifică mesaj</translation>
     </message>
     <message>
-        <source>The Aib address the message was signed with</source>
-        <translation>Introduceţi o adresă Aib</translation>
+        <source>The AIB address the message was signed with</source>
+        <translation>Introduceţi o adresă AIB</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aib address</source>
-        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa Aib specificată</translation>
+        <source>Verify the message to ensure it was signed with the specified AIB address</source>
+        <translation>Verificaţi mesajul pentru a vă asigura că a fost semnat cu adresa AIB specificată</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1612,8 +1612,8 @@
         <translation>Acceptă conexiuni din afară (implicit: 1 dacă nu se foloseşte -proxy sau -connect)</translation>
     </message>
     <message>
-        <source>Aib Core</source>
-        <translation>Nucleul Aib</translation>
+        <source>AIB</source>
+        <translation>Nucleul AIB</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

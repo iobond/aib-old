@@ -166,8 +166,8 @@
         <translation>Ladataan lohkoindeksiä...</translation>
     </message>
     <message>
-        <source>Send coins to a Aib address</source>
-        <translation>Lähetä kolikoita Aib-osoitteeseen</translation>
+        <source>Send coins to a AIB address</source>
+        <translation>Lähetä kolikoita AIB-osoitteeseen</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -190,8 +190,8 @@
         <translation>Varmista &amp;viesti...</translation>
     </message>
     <message>
-        <source>Aib</source>
-        <translation>Aib</translation>
+        <source>AIB</source>
+        <translation>AIB</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -211,19 +211,19 @@
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota Aib-ikkuna</translation>
+        <translation>Näytä tai piilota AIB-ikkuna</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Suojaa yksityiset avaimet, jotka kuuluvat lompakkoosi</translation>
     </message>
     <message>
-        <source>Sign messages with your Aib addresses to prove you own them</source>
-        <translation>Allekirjoita viestisi omalla Aib -osoitteellasi todistaaksesi, että omistat ne</translation>
+        <source>Sign messages with your AIB addresses to prove you own them</source>
+        <translation>Allekirjoita viestisi omalla AIB -osoitteellasi todistaaksesi, että omistat ne</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Aib addresses</source>
-        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä Aib -osoitteella</translation>
+        <source>Verify messages to ensure they were signed with specified AIB addresses</source>
+        <translation>Varmista, että viestisi on allekirjoitettu määritetyllä AIB -osoitteella</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -262,8 +262,8 @@
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Aib network</source>
-        <translation><numerusform>%n aktiivinen yhteys Aib-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Aib-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to AIB network</source>
+        <translation><numerusform>%n aktiivinen yhteys AIB-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä AIB-verkkoon</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -330,7 +330,7 @@
         <translation>Rahansiirtohistoria on ajan tasalla</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Aib command-line options</source>
+        <source>Show the %1 help message to get a list with possible AIB command-line options</source>
         <translation>Näytä %1 ohjeet saadaksesi listan mahdollisista Aibcoinin komentorivivalinnoista</translation>
     </message>
     <message>
@@ -583,7 +583,7 @@
         <translation>Tämä on ensimmäinen kerta, kun %1 on käynnistetty, joten voit valita data-hakemiston paikan.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Aib block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>%1 will download and store a copy of the AIB block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>%1 lataa ja tallentaa kopion Aibcoinin lohkoketjusta. Vähintään %2Gt dataa tullaan tallentamaan tähän hakemistoon, ja tarve kasvaa ajan myötä. Lompakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
@@ -725,16 +725,16 @@
         <translation>&amp;Käytä varmistamattomia vaihtorahoja</translation>
     </message>
     <message>
-        <source>Automatically open the Aib client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Aib-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the AIB client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa AIB-asiakasohjelman portti reitittimellä automaattisesti. Tämä toimii vain, jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Portin uudelleenohjaus &amp;UPnP:llä</translation>
     </message>
     <message>
-        <source>Connect to the Aib network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä Aib-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
+        <source>Connect to the AIB network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä AIB-verkkoon SOCKS5-välityspalvelimen kautta.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -773,8 +773,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the Aib network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Yhdistä Aib-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
+        <source>Connect to the AIB network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Yhdistä AIB-verkkoon erillisen SOCKS5-välityspalvelimen kautta piilotettuja Tor-palveluja varten.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers aib Tor hidden services:</source>
@@ -864,8 +864,8 @@
         <translation>Lomake</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Aib network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu Aib-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the AIB network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytetyt tiedot eivät välttämättä ole ajantasalla. Lompakkosi synkronoituu AIB-verkon kanssa automaattisesti yhteyden muodostamisen jälkeen, mutta synkronointi on vielä meneillään.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -957,8 +957,8 @@
         <translation>Määrä</translation>
     </message>
     <message>
-        <source>Enter a Aib address (e.g. %1)</source>
-        <translation>Syötä Aib-osoite (esim. %1)</translation>
+        <source>Enter a AIB address (e.g. %1)</source>
+        <translation>Syötä AIB-osoite (esim. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1302,8 +1302,8 @@
         <translation>&amp;Uudelleenkäytä vastaanotto-osoitetta (ei suositella)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Aib network.</source>
-        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä Aib-verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the AIB network.</source>
+        <translation>Valinnainen viesti liitetään maksupyyntöön ja näytetään avattaessa. Viestiä ei lähetetä AIB-verkkoon.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1538,8 +1538,8 @@
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The Aib address to send the payment to</source>
-        <translation>Aib-osoite johon maksu lähetetään</translation>
+        <source>The AIB address to send the payment to</source>
+        <translation>AIB-osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1582,8 +1582,8 @@
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Aib network.</source>
-        <translation>Viesti joka liitettiin aib: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä Aib-verkkoon.</translation>
+        <source>A message that was attached to the aib: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the AIB network.</source>
+        <translation>Viesti joka liitettiin aib: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä AIB-verkkoon.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -1619,8 +1619,8 @@
         <translation>&amp;Allekirjoita viesti</translation>
     </message>
     <message>
-        <source>The Aib address to sign the message with</source>
-        <translation>Aib-osoite jolla viesti allekirjoitetaan</translation>
+        <source>The AIB address to sign the message with</source>
+        <translation>AIB-osoite jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1651,8 +1651,8 @@
         <translation>Kopioi tämänhetkinen allekirjoitus leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Aib address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän Aib-osoitteen</translation>
+        <source>Sign the message to prove you own this AIB address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän AIB-osoitteen</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1671,12 +1671,12 @@
         <translation>&amp;Varmista viesti</translation>
     </message>
     <message>
-        <source>The Aib address the message was signed with</source>
-        <translation>Aib-osoite jolla viesti on allekirjoitettu</translation>
+        <source>The AIB address the message was signed with</source>
+        <translation>AIB-osoite jolla viesti on allekirjoitettu</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Aib address</source>
-        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä Aib-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified AIB address</source>
+        <translation>Tarkista viestin allekirjoitus varmistaaksesi, että se allekirjoitettiin tietyllä AIB-osoitteella</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1800,8 +1800,8 @@
         <translation>Hyväksy yhteyksiä ulkopuolelta (vakioasetus: 1 jos -proxy tai -connect ei määritelty)</translation>
     </message>
     <message>
-        <source>Aib Core</source>
-        <translation>Aib-ydin</translation>
+        <source>AIB</source>
+        <translation>AIB-ydin</translation>
     </message>
     <message>
         <source>The %s developers</source>
