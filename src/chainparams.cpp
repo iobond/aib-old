@@ -74,6 +74,13 @@
 #define WTMINT_SCRPIT_ADDRESS 5 // Dec.
 #define WTMINT_SECRET_ADDRESS 151 // Dec.
 
+#define WTMINT_TESTNET_PUBKEY_ADDRESS 65 // Dec.
+#define WTMINT_TESTNET_SECRET_ADDRESS 255 // Dec.
+
+#define WTMINT_REGTEST_PUBKEY_ADDRESS 49 // Dec.
+#define WTMINT_REGTEST_SECRET_ADDRESS 239 // Dec.
+
+
 #define DEBUG(title,strout) std::cout<<title<<":    "<< strout<<"\n"
 
 static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesisOutputScript, uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
@@ -261,15 +268,15 @@ public:
         checkpointData = (CCheckpointData) {
 		boost::assign::map_list_of
             (  0, uint256S("0x062550537871c387faaa5cd91bb8a2cf4b67d3a4ec816799ecc1f5cb7fd54bcc"))
-            (  500000, uint256S("0xd7f084ecf92896c76a50cdc12ed6f7e9d35f3682f9e3e2faf65dddab13cffb81"))
+            (  225020, uint256S("0xdea0bb494b8884893e3a1065ce39878b5fec42e2ce85a972d2bfeadb380353b3"))
             (  930000, uint256S("0x8f70c1b144d1d4c80373b2726375d2316e6112e06a828ac97c9f94b9572fbfd2"))
             (  935888, uint256S("0x8f1b9aee7f3df37e7c84fa44ebc86110097b18b537a62757fdb5e64fe8262387"))
             (  999000, uint256S("0xd2bb717d1bf8552e38ec4887007956286e63da7f1f7e2418704ace0670e28a3c"))    
             ( 1000000, uint256S("0x55b6dfafb9ad4683481d9c7d5523881c49135beea1775d1c7d6cff9de77bc759"))    
-            ( 1100000, uint256S("0x71e7d2d8f748e0123d22d3c525bb8f5534a0903ea733dd219ad3ee3fa48b585f"))    
-            ( 1144053, uint256S("0x61b6d34447bdea6a9a17ccddf2a38130114a4db584ecf7439aa7ad6d901003e4")),
-            1414056601, // * UNIX timestamp of last checkpoint block
-            154911,   // * total number of transactions between genesis and last checkpoint
+            ( 1144053, uint256S("0x61b6d34447bdea6a9a17ccddf2a38130114a4db584ecf7439aa7ad6d901003e4"))    
+            ( 1213390, uint256S("0x098ed783d5cf8428215686ddef1a88ba372d58b28f3f571a437f15bbaae59d55")),
+            1513213948, // * UNIX timestamp of last checkpoint block
+            1272545,   // * total number of transactions between genesis and last checkpoint
 			//   (the tx=... number in the SetBestChain debug.log lines)
             1500.0     // * estimated number of transactions per day after checkpoint
 	};
@@ -359,12 +366,13 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-        vSeeds.push_back(CDNSSeedData("bootstrap-testnet.aib.net", "testnet.aib.net"));
-        vSeeds.push_back(CDNSSeedData("aib.net", "seed-testnet.aib.net"));
-
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,127);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,255);
+        vSeeds.push_back(CDNSSeedData("wtmint.com", "seed.wtmint.com"));
+        vSeeds.push_back(CDNSSeedData("iobond.com", "seed.iobond.com"));
+        vSeeds.push_back(CDNSSeedData("aib.one", "seed.aib.one"));
+        
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,WTMINT_TESTNET_PUBKEY_ADDRESS);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,WTMINT_SCRPIT_ADDRESS);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,WTMINT_TESTNET_SECRET_ADDRESS);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
 
@@ -474,9 +482,9 @@ public:
 			0
 	};
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,111);
-        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,196);
-        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,239);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,WTMINT_REGTEST_PUBKEY_ADDRESS);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,WTMINT_SCRPIT_ADDRESS);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,WTMINT_REGTEST_SECRET_ADDRESS);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
     }
