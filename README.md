@@ -1,34 +1,34 @@
-Aib Core integration/staging tree
+AIB Core integration/staging tree
 =====================================
 
 [![Build Status](https://travis-ci.org/aib/aib.svg?branch=0.13-dev)](https://travis-ci.org/aib/aib)
 
-https://aib.org
+https://www.aib.one
 
-What is aib?
+What is AIB?
 ----------------
 
-Viacoin is an experimental digital currency that enables instant payments to
+AIB is an experimental digital asset that enables instant payments to
 anyone, anywhere in the world. Aib uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Aib Core is the name of open source
-software which enables the use of this currency.
+out collectively by the network. AIB Core is the name of open source
+software which enables the use of this asset.
 
 For more information, as well as an immediately useable, binary version of
-the Aib Core software, see [https://aib.org](https://aib.org).
+the AIB Core software, see [https://www.aib.one](https://www.aib.one).
 
 License
 -------
 
-Aib Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+AIB Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/aib/aib/tags) are created
-regularly to indicate new official, stable release versions of Aib Core.
+completely stable. [Tags](https://github.com/iobond/aib/tags) are created
+regularly to indicate new official, stable release versions of AIB Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -68,7 +68,7 @@ not straightforward.
 Translations
 ------------
 
-We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
+We only accept translation fixes that are submitted through [AIB Core's Transifex page](https://www.transifex.com/projects/p/aib/).
 Translations are converted to Aib coin periodically.
 
 Translations are periodically pulled from Transifex and merged into the git repository. See the
