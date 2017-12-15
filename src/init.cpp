@@ -77,7 +77,8 @@ static const bool DEFAULT_PROXYRANDOMIZE = true;
 static const bool DEFAULT_REST_ENABLE = false;
 static const bool DEFAULT_DISABLE_SAFEMODE = false;
 static const bool DEFAULT_STOPAFTERBLOCKIMPORT = false;
-
+//TODO: AIB MERGE debug flag
+static const bool DEFAULT_AIBDBG = false;
 
 #if ENABLE_ZMQ
 static CZMQNotificationInterface* pzmqNotificationInterface = NULL;
@@ -770,6 +771,12 @@ void InitParameterInteraction()
         if (SoftSetBoolArg("-whitelistrelay", true))
             LogPrintf("%s: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1\n", __func__);
     }
+    
+    // TODO: AIB MERGE adding aib debug flag
+    /*if (GetBoolArg("-aibdbg", DEFAULT_AIBDBG)) {
+        if (SoftSetBoolArg("-aibdbg", true))
+            LogPrintf("%s: parameter interaction: -aibdbg=1 -> setting -aibdbg=1\n", __func__);
+    }*/
 }
 
 static std::string ResolveErrMsg(const char * const optname, const std::string& strBind)

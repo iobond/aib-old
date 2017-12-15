@@ -286,10 +286,10 @@ unsigned int static KimotoGravityWell(const CBlockIndex* pindexLast, const CBloc
         bnNew = bnProofOfWorkLimit;
 
     /// debug print
-    LogPrintf("Difficulty Retarget - Kimoto Gravity Well\n");
-    LogPrintf("PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
-    LogPrintf("Before: %08x  %s\n", BlockLastSolved->nBits, CBigNum().SetCompact(BlockLastSolved->nBits).GetHex().c_str());
-    LogPrintf("After:  %08x  %s\n", bnNew.GetCompact(), bnNew.GetHex().c_str());
+    //LogPrint("aibdbg","Difficulty Retarget - Kimoto Gravity Well\n");
+    //LogPrint("aibdbg","PastRateAdjustmentRatio = %g\n", PastRateAdjustmentRatio);
+    //LogPrint("aibdbg","Before: %08x  %s\n", BlockLastSolved->nBits, CBigNum().SetCompact(BlockLastSolved->nBits).GetHex().c_str());
+    //LogPrint("aibdbg","After:  %08x  %s\n", bnNew.GetCompact(), bnNew.GetHex().c_str());
 
     return bnNew.GetCompact();
 }

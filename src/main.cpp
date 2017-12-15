@@ -3692,15 +3692,15 @@ bool ContextualCheckBlock(const CBlock& block, CValidationState& state, CBlockIn
     // TODO: AIB MERGE RECHECK
     // Hard coded proof of work before transit to Ethereum
     bool isAux = block.IsAuxPow();
-    LogPrintf("nHeight:%d  isAux:%s  \n", nHeight, isAux ? "true" : "false" );
+    //LogPrint("aibdbg","nHeight:%d  isAux:%s  \n", nHeight, isAux ? "true" : "false" );
             
     if (nHeight > 930000 ){ //930000
         if (nHeight%2==0 && isAux){
             //return state.DoS(100, error("AcceptBlock() : this block is only allow pure pow"));
-            LogPrintf("ERROR: AcceptBlock() : this block - EVEN height = %d is only allow pure pow\n", nHeight);
+            //LogPrint("aibdbg","ERROR: AcceptBlock() : this block - EVEN height = %d is only allow pure pow\n", nHeight);
         }
         if (nHeight%2==1 && !isAux){
-            LogPrintf("ERROR: AcceptBlock() : this block - ODD height = %d is only allow aux pow\n",nHeight);
+            //LogPrintf("aibdbg","ERROR: AcceptBlock() : this block - ODD height = %d is only allow aux pow\n",nHeight);
             //return state.DoS(100, error("AcceptBlock() : this block is only allow aux pow"));
         }
     }

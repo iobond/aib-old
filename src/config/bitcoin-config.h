@@ -9,13 +9,13 @@
 /* #undef AC_APPLE_UNIVERSAL_BUILD */
 
 /* Version Build */
-#define CLIENT_VERSION_BUILD 7
+#define CLIENT_VERSION_BUILD 1
 
 /* Version is release */
 #define CLIENT_VERSION_IS_RELEASE true
 
 /* Major version */
-#define CLIENT_VERSION_MAJOR 4
+#define CLIENT_VERSION_MAJOR 5
 
 /* Minor version */
 #define CLIENT_VERSION_MINOR 13
@@ -27,10 +27,10 @@
 #define COPYRIGHT_HOLDERS "The %s developers"
 
 /* Copyright holder(s) */
-#define COPYRIGHT_HOLDERS_FINAL "The Aib Core developers"
+#define COPYRIGHT_HOLDERS_FINAL "The AIB Core developers"
 
 /* Replacement for %s in copyright holders string */
-#define COPYRIGHT_HOLDERS_SUBSTITUTION "Aib Core"
+#define COPYRIGHT_HOLDERS_SUBSTITUTION "AIB Core"
 
 /* Copyright year */
 #define COPYRIGHT_YEAR 2017
